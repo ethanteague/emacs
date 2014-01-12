@@ -91,6 +91,9 @@
 (define-key ac-complete-mode-map "\t" 'ac-complete)
 (define-key ac-complete-mode-map "\r" 'ac-complete)
 
+(require 'flymake-php)
+(add-hook 'php-mode-hook 'flymake-php-load)
+
 (defun ac-self-insert ()
   (interactive)
   (self-insert-command 1)
@@ -114,24 +117,6 @@
     (ac-start)))
 
 (provide 'auto-complete-config)
-
-(add-hook 'php-mode-hook
-          (lambda ()
-            (c-set-style "bsd")
-            (setq c-indent-level 2)
-            (setq c-continued-statement-offset 2)
-            (setq c-brace-offset -2)
-            (setq c-argdecl-indent 0)
-            (setq c-label-offset -2)
-            (setq c-basic-offset 2)
-            (setq tab-width 2)
-            (setq indent-tabs-mode nil)
-            (c-set-offset 'case-label '+)
-            (c-set-offset 'arglist-close 'c-lineup-arglist-operators)
-            (c-set-offset 'arglist-intro '+)
-            (c-set-offset 'arglist-cont-nonempty 'c-lineup-math)))
-
-(add-hook 'after-init-hook #'global-flycheck-mode)
 
 (add-hook 'after-init-hook #'global-auto-complete-mode)
 
@@ -186,8 +171,6 @@
  '(electric-layout-mode t)
  '(electric-pair-mode t)
  '(fancy-splash-image "~/.emacs.d/start.png")
- '(fci-rule-character-color "#202020")
- '(fci-rule-color "#282a2e")
  '(foreground-color "#839496")
  '(fringe-mode 4 nil (fringe))
  '(gnus-default-nntp-server "")
@@ -200,8 +183,10 @@
  '(powerline-color2 "#111111")
  '(save-place t nil (saveplace))
  '(send-mail-function (quote mailclient-send-it))
+ '(show-paren-mode t)
  '(standard-indent 2)
  '(tab-stop-list (quote (2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46)))
+ '(tool-bar-mode nil)
  '(tramp-remote-path (quote (tramp-default-remote-path "/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin" "/local/bin" "/local/freeware/bin" "/local/gnu/bin" "/usr/freeware/bin" "/usr/pkg/bin" "/usr/contrib/bin" "/opt/bin" "/opt/sbin" "/opt/local/bin")))
  '(vc-annotate-background nil)
  '(vc-annotate-color-map (quote ((20 . "#cc6666") (40 . "#de935f") (60 . "#f0c674") (80 . "#b5bd68") (100 . "#8abeb7") (120 . "#81a2be") (140 . "#b294bb") (160 . "#cc6666") (180 . "#de935f") (200 . "#f0c674") (220 . "#b5bd68") (240 . "#8abeb7") (260 . "#81a2be") (280 . "#b294bb") (300 . "#cc6666") (320 . "#de935f") (340 . "#f0c674") (360 . "#b5bd68"))))

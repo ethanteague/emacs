@@ -1,4 +1,4 @@
-;; -*- emacs-lisp -*- <14/01/08 09:07:01 /home/ethan/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <14/01/12 11:39:59 /home/ethan/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; You can delete it, forcing Tramp to reapply the checks.
 
@@ -116,14 +116,14 @@
   ("remote-shell" "/bin/sh")
   ("busybox" nil)
   ("file-exists" "test -e")
-  ("~" "/home/peeps")
-  ("ls" "/bin/ls --color=never")
-  ("ls-dired" t)
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
   ("stat" "\\stat")
   ("id" "/usr/bin/id")
   ("gid-integer" 10006)
   ("readlink" "\\readlink")
-  ("perl-file-spec" t)
-  ("perl-cwd-realpath" t)
-  ("perl" "\\perl")
+  ("~" "/home/peeps")
+  ("ls" "/bin/ls --color=never")
+  ("ls-dired" t)
   ("uid-integer" 10006)))
