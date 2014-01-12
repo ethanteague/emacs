@@ -93,6 +93,7 @@
 
 (require 'flymake-php)
 (add-hook 'php-mode-hook 'flymake-php-load)
+(add-hook 'php-mode-hook 'php-enable-drupal-coding-style)
 
 (defun ac-self-insert ()
   (interactive)
@@ -134,6 +135,7 @@
 		(lambda ()
 		  (interactive)
 		  (dired "/ssh:peeps@web-24.castle.hosting.acquia.com:~/dev2/livedev")))
+
 
 (require 'org-latex)
 (unless (boundp 'org-export-latex-classes)
@@ -179,6 +181,7 @@
  '(main-line-color1 "#1E1E1E")
  '(main-line-color2 "#111111")
  '(main-line-separator-style (quote chamfer))
+ '(netrc-file "~/.netrc")
  '(powerline-color1 "#1E1E1E")
  '(powerline-color2 "#111111")
  '(save-place t nil (saveplace))
