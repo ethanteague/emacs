@@ -72,6 +72,17 @@
     (sort (dabbrev--find-all-expansions abbrev t) #'string<)))
 
 
+(require 'flymake-php)
+(add-hook 'php-mode-hook 'flymake-php-load)
+(add-hook 'php-mode-hook 'php-enable-drupal-coding-style)
+
+(add-hook 'php-mode-hook 'flymake-phpcs-load)
+(global-set-key (kbd "M-4")
+		(lambda ()
+		  (interactive)
+		  (flymake-phpcs-load)))
+
+
 (defvar ac-source-dabbrev-words
   '((candidates
      . (lambda () (all-completions ac-target
@@ -90,10 +101,6 @@
 
 (define-key ac-complete-mode-map "\t" 'ac-complete)
 (define-key ac-complete-mode-map "\r" 'ac-complete)
-
-(require 'flymake-php)
-(add-hook 'php-mode-hook 'flymake-php-load)
-(add-hook 'php-mode-hook 'php-enable-drupal-coding-style)
 
 (defun ac-self-insert ()
   (interactive)
@@ -159,6 +166,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(flymake-phpcs-standard "Drupal")
  '(Linum-format "%7i ")
  '(ansi-color-faces-vector [default bold shadow italic underline bold bold-italic bold])
  '(ansi-color-names-vector ["#212526" "#ff4b4b" "#b4fa70" "#fce94f" "#729fcf" "#ad7fa8" "#8cc4ff" "#eeeeec"])

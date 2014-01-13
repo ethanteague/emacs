@@ -4,7 +4,7 @@
 
 
 ;;;### (autoloads (flymake-phpcs-load) "flymake-phpcs" "flymake-phpcs.el"
-;;;;;;  (21202 54095 760035 716000))
+;;;;;;  (21204 28162 545856 22000))
 ;;; Generated autoloads from flymake-phpcs.el
 
 (autoload 'flymake-phpcs-load "flymake-phpcs" "\
@@ -14,8 +14,8 @@ Configure flymake mode to check the current buffer's PHP syntax.
 
 ;;;***
 
-;;;### (autoloads nil nil ("flymake-phpcs-pkg.el") (21202 54095 773122
-;;;;;;  849000))
+;;;### (autoloads nil nil ("flymake-phpcs-pkg.el") (21204 28162 570262
+;;;;;;  561000))
 
 ;;;***
 
