@@ -21,9 +21,9 @@
 (require 'dirtree)
 (require 'direx)
 
-
-(autoload 'sass-mode "sass-mode")
-(add-to-list 'auto-mode-alist '("\\.scss\\'" . sass-mode))
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/scss-mode.el"))
+(autoload 'scss-mode "scss-mode")
+(add-to-list 'auto-mode-alist '("\\.scss\\'" . scss-mode))
 
 (require 'dired-details)
 (dired-details-install)
@@ -77,11 +77,6 @@
 (add-hook 'php-mode-hook 'php-enable-drupal-coding-style)
 
 (add-hook 'php-mode-hook 'flymake-phpcs-load)
-(global-set-key (kbd "M-4")
-		(lambda ()
-		  (interactive)
-		  (flymake-phpcs-load)))
-
 
 (defvar ac-source-dabbrev-words
   '((candidates
@@ -143,6 +138,15 @@
 		  (interactive)
 		  (dired "/ssh:peeps@web-24.castle.hosting.acquia.com:~/dev2/livedev")))
 
+(global-set-key (kbd "M-4")
+		(lambda ()
+		  (interactive)
+		  (flymake-phpcs-load)))
+
+(global-set-key (kbd "M-5")
+		(lambda ()
+		  (interactive)
+		  (dired "/home/ethan/workspace/fbt/sites/all/themes/fbt")))
 
 (require 'org-latex)
 (unless (boundp 'org-export-latex-classes)
