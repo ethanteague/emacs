@@ -165,6 +165,11 @@
 
 (setq org-latex-to-pdf-process '("texi2dvi --pdf --clean --verbose --batch %f"))
 
+(add-to-list 'load-path "~/.emacs.d/vendor/emacs-powerline")
+(require 'powerline)
+
+
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -194,8 +199,6 @@
  '(main-line-color2 "#111111")
  '(main-line-separator-style (quote chamfer))
  '(netrc-file "~/.netrc")
- '(powerline-color1 "#1E1E1E")
- '(powerline-color2 "#111111")
  '(save-place t nil (saveplace))
  '(send-mail-function (quote mailclient-send-it))
  '(show-paren-mode t)
@@ -211,5 +214,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(mode-line ((t (:foreground "#030303" :background "#bdbdbd" :box nil))))
+ '(mode-line-inactive ((t (:foreground "#f9f9f9" :background "#666666" :box nil))))
  '(default ((t (:family "Droid Sans Mono" :foundry "unknown" :slant normal :weight normal :height 113 :width normal)))))
-(put 'dired-find-alternate-file 'disabled nil)
+(put 'dired-find-alternate-file 'disabled nil) 
