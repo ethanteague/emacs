@@ -131,12 +131,12 @@
 (global-set-key (kbd "M-2")
 		(lambda ()
 		  (interactive)
-		  (dired "/ssh:peeps@web-24.castle.hosting.acquia.com:~/dev3/livedev")))
+		  (dired "/ssh:peeps@web-24.castle.hosting.acquia.com:~/dev2/livedev")))
 
 (global-set-key (kbd "M-3")
 		(lambda ()
 		  (interactive)
-		  (dired "/ssh:peeps@web-24.castle.hosting.acquia.com:~/dev2/livedev")))
+		  (dired "/ssh:dscadev@staging-2689.prod.hosting.acquia.com:~/dev3/livedev")))
 
 (global-set-key (kbd "M-4")
 		(lambda ()
@@ -147,6 +147,7 @@
 		(lambda ()
 		  (interactive)
 		  (dired "/home/ethan/workspace/fbt/sites/all/themes/fbt")))
+
 
 (require 'org-latex)
 (unless (boundp 'org-export-latex-classes)
