@@ -1,6 +1,3 @@
-/home/ethan
-/ssh:direct.dripdrophost.net:/var/aegir/platforms/custom/clients/tpc/mealsonwheels/sites/mow-ethan.dripdrophost.net/modules/custom/features
-/ssh:direct.dripdrophost.net:/var/aegir/platforms/custom/clients/tpc/mealsonwheels/sites/mow-ethan.dripdrophost.net/modules/custom
 /ssh:direct.dripdrophost.net:/var/aegir/platforms/custom/clients/tpc/mealsonwheels/sites/mow-ethan.dripdrophost.net/modules/contrib
 /ssh:direct.dripdrophost.net:/var/aegir/platforms/custom/clients/tpc/mealsonwheels/sites/mow-ethan.dripdrophost.net/modules/contrib
 /ssh:direct.dripdrophost.net:/var/aegir/platforms/custom/clients/tpc/mealsonwheels/sites/mow-ethan.dripdrophost.net/modules/features
@@ -28,6 +25,8 @@
 /var/www/commerce/sites/all/themes/windshield/images
 /var/www/commerce/sites/all/themes/windshield
 /home/ethan/workspace/dscadev/sites/all/modules/contrib/comment_upload
-~
 /home/ethan/.openvpn
+~/workspace/dscadev/sites/all/themes
+~/workspace/fbt/sites/all/themes/fbt
 ~
+/home/ethan/workspace/fbt

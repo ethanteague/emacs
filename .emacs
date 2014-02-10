@@ -148,7 +148,6 @@
 		  (interactive)
 		  (dired "/home/ethan/workspace/fbt/sites/all/themes/fbt")))
 
-
 (require 'org-latex)
 (unless (boundp 'org-export-latex-classes)
   (setq org-export-latex-classes nil))
@@ -219,3 +218,4 @@
  '(mode-line-inactive ((t (:foreground "#f9f9f9" :background "#666666" :box nil))))
  '(default ((t (:family "Droid Sans Mono" :foundry "unknown" :slant normal :weight normal :height 113 :width normal)))))
 (put 'dired-find-alternate-file 'disabled nil) 
+;; (set-scroll-bar-mode 'right) 

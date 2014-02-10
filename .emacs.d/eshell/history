@@ -1,6 +1,3 @@
-ls
-git rm -rf mow_draggable_staff_page/
-git commit -m "removing bad version of staff drag"
 git add mow_draggable_staff_page/
 git commit -m "add good version of staff drag"
 git checkout integration
@@ -126,3 +123,6 @@ ls -a
 cd .openvpn/
 openvpn client.conf
 sudo openvpn client.conf
+drush use @fbt.dev
+drush uli
+cd workspace/fbt/
