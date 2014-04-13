@@ -150,8 +150,8 @@
    use `i' to bounce between a subdirectory line and its
    inserted-listing header line.  You can delete a subdir listing
    using `C-u k' on its header line.  You can hide/show an inserted
-   subdir using `$' and `M-$'.  You can use `C-_' to undo any of
-   these operations.
+   subdir using `$'.  You can use `C-_' to undo any of these
+   operations.
 
  * You can open a Dired buffer for an arbitrary set of files, from
    different directories.
@@ -164,6 +164,17 @@
    are interpreted relative to the value of `default-directory'.
    Use absolute file names if appropriate.
 
+ `i' and `$' are improved in Dired+:
+
+ * Once a subdir has been inserted, `i' bounces between the subdir
+   listing and the subdir line in the parent listing.  If the
+   parent dir is hidden, then `i' from a subdir opens the parent
+   listing so it can move to the subdir line there (Emacs 24+).
+
+ * `$' is a simple toggle - it does not move the cursor forward.
+   `M-$' advances the cursor, in addition to toggling like `$'.
+   `C-u $' does hide/show all (what `M-$' does in vanilla Dired).
+
  Some other libraries, such as `Bookmark+' and `Icicles', make it
  easy to create or re-create Dired buffers that list specific files
  and have a particular set of markings.  This can be handy for
@@ -173,7 +184,7 @@
 
  This is one motivation for the Dired+ `diredp-*-recursive'
  commands, which act on the marked files in marked subdirectories,
- recursively.  In one sense these commands are an alternative to
+ recursively.  In one sense, these commands are an alternative to
  using a single Dired buffer with inserted subdirectories.  They
  let you use the same operations on the files in a set of Dired
  directories, without inserting those directories into an ancestor
@@ -254,7 +265,8 @@
    `diredp-do-verify-recursive', `diredp-downcase-recursive',
    `diredp-downcase-this-file', `diredp-ediff',
    `diredp-encrypt-this-file', `diredp-fileset',
-   `diredp-find-a-file', `diredp-find-a-file-other-frame',
+   `diredp-fileset-other-window', `diredp-find-a-file',
+   `diredp-find-a-file-other-frame',
    `diredp-find-a-file-other-window',
    `diredp-find-file-other-frame',
    `diredp-find-file-reuse-dir-buffer',
@@ -349,12 +361,13 @@
    (Emacs 22+), `diredp-do-chxxx-recursive',
    `diredp-do-create-files-recursive', `diredp-do-grep-1',
    `diredp-ensure-mode', `diredp-fewer-than-2-files-p',
-   `diredp-find-a-file-read-args', `diredp-files-within',
-   `diredp-files-within-1',
+   `diredp-fileset-1', `diredp-find-a-file-read-args',
+   `diredp-files-within', `diredp-files-within-1',
    `diredp-fit-frame-unless-buffer-narrowed' (Emacs 24.4+),
    `diredp-get-confirmation-recursive', `diredp-get-files',
-   `diredp-get-files-for-dir', `diredp-hide-details-if-dired'
-   (Emacs 24.4+), `diredp-hide/show-details' (Emacs 24.4+),
+   `diredp-get-files-for-dir', `diredp-get-subdirs',
+   `diredp-hide-details-if-dired' (Emacs 24.4+),
+   `diredp-hide/show-details' (Emacs 24.4+),
    `diredp-internal-do-deletions', `diredp-list-files',
    `diredp-make-find-file-keys-reuse-dirs',
    `diredp-make-find-file-keys-not-reuse-dirs', `diredp-maplist',
@@ -401,6 +414,7 @@
  `dired-get-filename'      - Test `./' and `../' (like `.', `..').
  `dired-goto-file'         - Fix Emacs bug #7126.
                              Remove `/' from dir before compare.
+                             (Emacs < 24 only.)
  `dired-hide-details-mode' - Respect new user options:
                              * `diredp-hide-details-initially-flag'
                              * `diredp-hide-details-propagate-flag'
@@ -415,3 +429,4 @@
                              afterward, and bury its buffer. Do not
                              show a menu bar for pop-up frame.
  `dired-pop-to-buffer'     - Put window point at bob (bug #12281).
+                             (Emacs 22-24.1)

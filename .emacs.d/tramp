@@ -1,4 +1,4 @@
-;; -*- emacs-lisp -*- <14/02/06 14:35:07 /home/ethan/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <14/04/02 10:15:13 /home/ethan/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; You can delete it, forcing Tramp to reapply the checks.
 
@@ -89,25 +89,6 @@
   ("stat" "\\stat")
   ("id" "/usr/bin/id")
   ("gid-integer" 0))
- (["ssh" "textrewa" "174.121.236.93" nil nil]
-  ("uname" "Linux 3.2.45-grsec")
-  ("test" "test")
-  ("remote-path"
-   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
-  ("remote-shell" "/bin/sh")
-  ("busybox" nil)
-  ("~" "/home/textrewa")
-  ("file-exists" "test -e")
-  ("ls" "/bin/ls --color=never")
-  ("ls-dired" t)
-  ("stat" "\\stat")
-  ("id" "/usr/bin/id")
-  ("gid-integer" 501)
-  ("readlink" "\\readlink")
-  ("perl-file-spec" t)
-  ("perl-cwd-realpath" t)
-  ("perl" "\\perl")
-  ("uid-integer" 501))
  (["ssh" "peeps" "web-24.castle.hosting.acquia.com" nil nil]
   ("uname" "Linux 2.6.32-353-ec2")
   ("test" "test")
@@ -126,7 +107,8 @@
   ("~" "/home/peeps")
   ("ls" "/bin/ls --color=never")
   ("ls-dired" t)
-  ("uid-integer" 10006))
+  ("uid-integer" 10006)
+  ("trash" nil))
  (["ssh" "dscadev" "staging-2689.prod.hosting.acquia.com" nil nil]
   ("uname" "Linux 2.6.32-350-ec2")
   ("test" "test")
@@ -134,4 +116,39 @@
    ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
   ("remote-shell" "/bin/sh")
   ("busybox" nil)
-  ("file-exists" "test -e")))
+  ("file-exists" "test -e"))
+ (["ssh" "dscadev" "ded-419.prod.hosting.acquia.com" nil nil]
+  ("uname" "Linux 2.6.32-350-ec2")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("busybox" nil)
+  ("file-exists" "test -e")
+  ("ls" "/bin/ls --color=never")
+  ("ls-dired" t)
+  ("stat" "\\stat")
+  ("id" "/usr/bin/id")
+  ("gid-integer" 11028)
+  ("readlink" "\\readlink")
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl"))
+ (["ssh" "textrewa" "174.121.236.93" nil nil]
+  ("uname" "Linux 3.2.45-grsec")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("busybox" nil)
+  ("~" "/home/textrewa")
+  ("file-exists" "test -e")
+  ("ls" "/bin/ls --color=never")
+  ("ls-dired" t)
+  ("stat" "\\stat")
+  ("id" "/usr/bin/id")
+  ("gid-integer" 501)
+  ("readlink" "\\readlink")
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")))
