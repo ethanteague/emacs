@@ -123,7 +123,9 @@
 
 (add-hook 'after-init-hook #'global-auto-complete-mode)
 
-(global-set-key (kbd "M-5")
+
+
+(global-set-key (kbd "M-1")
 		(lambda ()
 		  (interactive)
 		  (dired "/ssh:textrewa@174.121.236.93:public_html")))
@@ -131,22 +133,24 @@
 (global-set-key (kbd "M-2")
 		(lambda ()
 		  (interactive)
-		  (dired "/ssh:peeps@web-24.castle.hosting.acquia.com:/home/peeps/dev2/livedev")))
+		  (dired "/ssh:fortycak@50.22.11.22:public_html")))
 
 (global-set-key (kbd "M-3")
 		(lambda ()
 		  (interactive)
-		  (dired "/ssh:dscadev@ded-419.prod.hosting.acquia.com:/var/www/html/dscadev.prod/docroot")))
+		  (dired "/home/ethan/workspace/lex/docroot/sites/all/themes/lex/sass/")))
 
 (global-set-key (kbd "M-4")
 		(lambda ()
 		  (interactive)
-		  (flymake-phpcs-load)))
+		  (dired "/ssh:dscadev@ded-419.prod.hosting.acquia.com:/var/www/html/dscadev.prod/docroot")))
 
-(global-set-key (kbd "M-1")
+(global-set-key (kbd "M-5")
 		(lambda ()
 		  (interactive)
-		  (dired "/home/ethan/workspace/home/docroot/sites/all/themes/sanantonio/sass/")))
+		  (flymake-phpcs-load)))
+
+
 
 (require 'org-latex)
 (unless (boundp 'org-export-latex-classes)
