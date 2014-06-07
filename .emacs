@@ -138,14 +138,19 @@
 (global-set-key (kbd "M-3")
 		(lambda ()
 		  (interactive)
-		  (dired "/home/ethan/workspace/lex/docroot/sites/all/themes/lex/sass/")))
+		  (dired "/ssh:floridab@50.22.11.59:public_html")))
 
 (global-set-key (kbd "M-4")
 		(lambda ()
 		  (interactive)
-		  (dired "/ssh:dscadev@ded-419.prod.hosting.acquia.com:/var/www/html/dscadev.prod/docroot")))
+		  (dired "/home/ethan/workspace/lex/docroot/sites/all/themes/lextheme/sass/")))
 
 (global-set-key (kbd "M-5")
+		(lambda ()
+		  (interactive)
+		  (dired "/ssh:mrwhitehouse@web-324.castle.hosting.acquia.com:~/dev2/livedev")))
+
+(global-set-key (kbd "M-6")
 		(lambda ()
 		  (interactive)
 		  (flymake-phpcs-load)))
@@ -163,6 +168,7 @@
          [EXTRA]"
          ("\\section{%s}" . "\\section*{%s}")
          ("\\subsection{%s}" . "\\subsection*{%s}")
+	 
          ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
          ("\\paragraph{%s}" . "\\paragraph*{%s}")
          ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
