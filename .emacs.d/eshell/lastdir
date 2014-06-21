@@ -1,5 +1,4 @@
 /ssh:direct.dripdrophost.net:/var/aegir/platforms/custom/clients/tpc/mealsonwheels/sites/mow-ethan.dripdrophost.net/modules/contrib
-/ssh:direct.dripdrophost.net:/var/aegir/platforms/custom/clients/tpc/mealsonwheels/sites/mow-ethan.dripdrophost.net/modules/contrib
 /ssh:direct.dripdrophost.net:/var/aegir/platforms/custom/clients/tpc/mealsonwheels/sites/mow-ethan.dripdrophost.net/modules/features
 /ssh:direct.dripdrophost.net:/var/aegir/platforms/custom/clients/tpc/mealsonwheels/sites/mow-ethan.dripdrophost.net/modules/features/mow_draggable_staff_page
 /ssh:direct.dripdrophost.net:/var/aegir/platforms/custom/clients/tpc/mealsonwheels/sites/mow-ethan.dripdrophost.net/modules/features
@@ -28,5 +27,7 @@
 /home/ethan/.openvpn
 ~/workspace/dscadev/sites/all/themes
 ~/workspace/fbt/sites/all/themes/fbt
-~
 /home/ethan/workspace/fbt
+/home/ethan
+~
+/home/ethan/workspace/_peeps/ppo/modules/custom/ppo_solr_exporter

@@ -21,10 +21,6 @@
 (require 'dirtree)
 (require 'direx)
 
-(add-to-list 'load-path (expand-file-name "~/.emacs.d/scss-mode.el"))
-(autoload 'scss-mode "scss-mode")
-(add-to-list 'auto-mode-alist '("\\.scss\\'" . scss-mode))
-
 (require 'dired-details)
 (dired-details-install)
 
@@ -59,6 +55,10 @@
 (tool-bar-mode -1)
 
 (show-paren-mode 1)
+
+(setq js-indent-level 2)
+
+(setq css-indent-offset 2)
 
 (setq-default ac-sources '(ac-source-words-in-all-buffer))
 (require 'cl)
@@ -123,6 +123,8 @@
 
 (add-hook 'after-init-hook #'global-auto-complete-mode)
 
+
+
 (global-set-key (kbd "M-1")
 		(lambda ()
 		  (interactive)
@@ -131,18 +133,42 @@
 (global-set-key (kbd "M-2")
 		(lambda ()
 		  (interactive)
-		  (dired "/Applications/MAMP/htdocs/_peeps")))
+		  (dired "/ssh:fortycak@50.22.11.22:public_html")))
 
 (global-set-key (kbd "M-3")
 		(lambda ()
 		  (interactive)
-		  (dired "/ssh:peeps@web-24.castle.hosting.acquia.com:~/dev2/livedev")))
+		  (dired "/ssh:floridab@50.22.11.59:public_html")))
 
-(global-set-key (kbd "M-4")
+(global-set-key (kbd "M-5")
 		(lambda ()
 		  (interactive)
-		  (dired "/ssh:dscadev@staging-2689.prod.hosting.acquia.com:~/dev3/livedev")))
+		  (dired "/ssh:mrwhitehouse@web-324.castle.hosting.acquia.com:~/dev2/livedev")))
 
+(global-set-key (kbd "M-6")
+		(lambda ()
+		  (interactive)
+		  (flymake-phpcs-load)))
+
+
+
+(require 'org-latex)
+(unless (boundp 'org-export-latex-classes)
+  (setq org-export-latex-classes nil))
+(add-to-list 'org-export-latex-classes
+      '("org-article"
+         "\\documentclass{org-article}
+         [NO-DEFAULT-PACKAGES]
+         [PACKAGES]
+         [EXTRA]"
+         ("\\section{%s}" . "\\section*{%s}")
+         ("\\subsection{%s}" . "\\subsection*{%s}")
+	 
+         ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
+         ("\\paragraph{%s}" . "\\paragraph*{%s}")
+         ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
+
+(setq org-latex-to-pdf-process '("texi2dvi --pdf --clean --verbose --batch %f"))
 
 (add-to-list 'load-path "~/.emacs.d/vendor/emacs-powerline")
 (require 'powerline)
@@ -177,6 +203,7 @@
  '(foreground-color "#839496")
  '(fringe-mode 4 nil (fringe))
  '(gnus-default-nntp-server "")
+ '(indent-tabs-mode t)
  '(inhibit-startup-screen t)
  '(initial-buffer-choice nil)
  '(main-line-color1 "#1E1E1E")
@@ -184,6 +211,7 @@
  '(main-line-separator-style (quote chamfer))
  '(netrc-file "~/.netrc")
  '(save-place t nil (saveplace))
+ '(scss-compile-at-save nil)
  '(send-mail-function (quote mailclient-send-it))
  '(show-paren-mode t)
  '(standard-indent 2)
@@ -221,7 +249,8 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- ;;'(default ((t (:family "Droid Sans Mono" :foundry "unknown" :slant normal :weight normal :height 113 :width normal))))
+
+ '(default ((t (:family "Droid Sans Mono" :foundry "unknown" :slant normal :weight normal :height 113 :width normal))))
  '(mode-line ((t (:foreground "#fff" :background "#006600" :box nil))))
  '(mode-line-inactive ((t (:foreground "#f9f9f9" :background "#666666" :box nil)))))
 (put 'dired-find-alternate-file 'disabled nil) 
