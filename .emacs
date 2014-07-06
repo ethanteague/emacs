@@ -148,7 +148,12 @@
 (global-set-key (kbd "M-5")
 		(lambda ()
 		  (interactive)
-		  (dired "/ssh:mrwhitehouse@web-324.castle.hosting.acquia.com:~/dev2/livedev")))
+		  (dired "/ssh:petitions@web-330.castle.hosting.acquia.com:~/dev7/livedev")))
+
+;;(global-set-key (kbd "M-5")
+;;		(lambda ()
+;;		  (interactive)
+;;		  (dired "/ssh:mrwhitehouse@web-324.castle.hosting.acquia.com:~/dev2/livedev")))
 
 (global-set-key (kbd "M-6")
 		(lambda ()
@@ -231,3 +236,4 @@
  '(mode-line-inactive ((t (:foreground "#f9f9f9" :background "#666666" :box nil)))))
 (put 'dired-find-alternate-file 'disabled nil) 
 (set-scroll-bar-mode 'right) 
+(setq initial-scratch-message "")
