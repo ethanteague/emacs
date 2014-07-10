@@ -89,6 +89,10 @@
 (setq ac-auto-start t)
 (global-set-key (kbd "M-/") 'ac-start)
 
+(eval-after-load "warnings"
+  ;; shut up, emacs!
+  '(setq display-warning-minimum-level :error))
+
 (define-key ac-complete-mode-map (kbd "M-x") 'execute-extended-command)
 (define-key ac-complete-mode-map (kbd "C-n") 'ac-next)
 (define-key ac-complete-mode-map (kbd "C-p") 'ac-previous)
@@ -157,23 +161,7 @@
 
 
 
-(require 'org-latex)
-(unless (boundp 'org-export-latex-classes)
-  (setq org-export-latex-classes nil))
-(add-to-list 'org-export-latex-classes
-      '("org-article"
-         "\\documentclass{org-article}
-         [NO-DEFAULT-PACKAGES]
-         [PACKAGES]
-         [EXTRA]"
-         ("\\section{%s}" . "\\section*{%s}")
-         ("\\subsection{%s}" . "\\subsection*{%s}")
-	 
-         ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
-         ("\\paragraph{%s}" . "\\paragraph*{%s}")
-         ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
 
-(setq org-latex-to-pdf-process '("texi2dvi --pdf --clean --verbose --batch %f"))
 
 (add-to-list 'load-path "~/.emacs.d/vendor/emacs-powerline")
 (require 'powerline)
@@ -255,7 +243,6 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
 
- '(default ((t (:family "Droid Sans Mono" :foundry "unknown" :slant normal :weight normal :height 113 :width normal))))
  '(mode-line ((t (:foreground "#fff" :background "#006600" :box nil))))
  '(mode-line-inactive ((t (:foreground "#f9f9f9" :background "#666666" :box nil)))))
 (put 'dired-find-alternate-file 'disabled nil) 
