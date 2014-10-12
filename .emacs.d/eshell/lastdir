@@ -1,7 +1,3 @@
-/ssh:direct.dripdrophost.net:/var/aegir/platforms/custom/clients/tpc/mealsonwheels/sites/mow-ethan.dripdrophost.net/modules/contrib
-/ssh:direct.dripdrophost.net:/var/aegir/platforms/custom/clients/tpc/mealsonwheels/sites/mow-ethan.dripdrophost.net/modules/features
-/ssh:direct.dripdrophost.net:/var/aegir/platforms/custom/clients/tpc/mealsonwheels/sites/mow-ethan.dripdrophost.net/modules/features/mow_draggable_staff_page
-/ssh:direct.dripdrophost.net:/var/aegir/platforms/custom/clients/tpc/mealsonwheels/sites/mow-ethan.dripdrophost.net/modules/features
 /ssh:direct.dripdrophost.net:/var/aegir/platforms/custom/clients/tpc/mealsonwheels/sites
 /ssh:direct.dripdrophost.net:/var/aegir/platforms/custom/clients/tpc/mealsonwheels/sites/mow.dripdrophost.net
 /ssh:textrewa@174.121.236.93:/home/textrewa/public_html/businessloans-plus.com/wp-content/themes/discover
@@ -29,5 +25,9 @@
 ~/workspace/fbt/sites/all/themes/fbt
 /home/ethan/workspace/fbt
 /home/ethan
-~
 /home/ethan/workspace/_peeps/ppo/modules/custom/ppo_solr_exporter
+~
+/Users/ethanteague/workspace/lacity
+/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes
+/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity
+/Users/ethanteague/workspace/lacity/docroot/profiles/la

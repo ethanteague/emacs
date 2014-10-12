@@ -72,12 +72,6 @@
     (sort (dabbrev--find-all-expansions abbrev t) #'string<)))
 
 
-(require 'flymake-php)
-(add-hook 'php-mode-hook 'flymake-php-load)
-(add-hook 'php-mode-hook 'php-enable-drupal-coding-style)
-
-(add-hook 'php-mode-hook 'flymake-phpcs-load)
-
 (defvar ac-source-dabbrev-words
   '((candidates
      . (lambda () (all-completions ac-target
@@ -134,32 +128,51 @@
 		  (interactive)
 		  (dired "/ssh:textrewa@174.121.236.93:public_html")))
 
+;;(global-set-key (kbd "M-2")
+;;		(lambda ()
+;;		  (interactive)
+;;		  (dired "/ssh:fortycak@50.22.11.22:public_html")))
 (global-set-key (kbd "M-2")
 		(lambda ()
 		  (interactive)
-		  (dired "/ssh:fortycak@50.22.11.22:public_html")))
+		  (dired "~/workspace/lacity_theme")))
 
 (global-set-key (kbd "M-3")
 		(lambda ()
 		  (interactive)
-		  (dired "/ssh:floridab@50.22.11.59:public_html")))
+		  (dired "~/workspace/lacityview/docroot/profiles/la")))
 
-(global-set-key (kbd "M-5")
+;;(global-set-key (kbd "M-3")
+;;		(lambda ()
+;;		  (interactive)
+;;		  (dired "/ssh:floridab@50.22.11.59:public_html")))
+
+(global-set-key (kbd "M-4")
 		(lambda ()
 		  (interactive)
-		  (dired "/ssh:petitions@web-330.castle.hosting.acquia.com:~/dev7/livedev")))
+		  (dired "/ssh:globalnet@stage.globalnetplatform.org:/home")))
 
 ;;(global-set-key (kbd "M-5")
 ;;		(lambda ()
 ;;		  (interactive)
-;;		  (dired "/ssh:mrwhitehouse@web-324.castle.hosting.acquia.com:~/dev2/livedev")))
+;;		  (dired "/ssh:globalnet@prod-web.globalnetplatform.org:/home")))
+
+(global-set-key (kbd "M-5")
+		(lambda ()
+		  (interactive)
+		  (dired "~/workspace/lacity/docroot/profiles/la")))
 
 (global-set-key (kbd "M-6")
 		(lambda ()
 		  (interactive)
+		  (dired "~/workspace/lacity/docroot/profiles/la/themes/lacity")))
+
+(global-set-key (kbd "M-7")
+		(lambda ()
+		  (interactive)
 		  (flymake-phpcs-load)))
 
-
+(put 'temporary-file-directory 'standard-value '((file-name-as-directory "/tmp")))
 
 
 
@@ -192,7 +205,6 @@
  '(electric-pair-mode t)
  '(fancy-splash-image "~/.emacs.d/start.png")
  '(fci-rule-character-color "#192028")
- '(flymake-phpcs-standard "Drupal")
  '(foreground-color "#839496")
  '(fringe-mode 4 nil (fringe))
  '(gnus-default-nntp-server "")
@@ -206,7 +218,6 @@
  '(save-place t nil (saveplace))
  '(scss-compile-at-save nil)
  '(send-mail-function (quote mailclient-send-it))
- '(show-paren-mode t)
  '(standard-indent 2)
  '(tab-stop-list
    (quote
@@ -242,9 +253,8 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
-
  '(mode-line ((t (:foreground "#fff" :background "#006600" :box nil))))
  '(mode-line-inactive ((t (:foreground "#f9f9f9" :background "#666666" :box nil)))))
-(put 'dired-find-alternate-file 'disabled nil) 
-(set-scroll-bar-mode 'right) 
+(put 'dired-find-alternate-file 'disabled nil)
+(set-scroll-bar-mode 'right)
 (setq initial-scratch-message "")

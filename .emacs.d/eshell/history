@@ -1,30 +1,3 @@
-git pull
-drush cc all
-drush cc all
-cd ../
-ls
-cd mow.dripdrophost.net/
-drush sql-dump 
-cd ../
-cd mow.dripdrophost.net/
-drush sql-dump > ../mow-ethan.dripdrophost.net/integration.sql
-cd ../mow-ethan.dripdrophost.net/
-drush cc all
-git branch
-git pull
-drush cc all
-git branch ticket/8
-ls
-cd modules/
-ls
-cd features/
-ls
-git add .
-git commit -m "ticket 8 fix"
-git checkout integration
-git merge ticket/8
-git push origin integration
-git branch
 git checkout ethan-first-feature-branch-based-off-of-integration
 git pull
 ls
@@ -126,3 +99,30 @@ git add SolrPhpClient/
 git add ppo_solr_exporter.module 
 git commit -m "PPO-898 adding SolrPhpClient"
 git rm -rf SolrPhpClient/
+ls
+cd workspace/lacity/
+git status
+git remote add ethan git@github.com:ethanteague/lacity.git
+git init
+git remote add ethan git@github.com:ethanteague/lacity.git
+git remote add acquia cityofla@svn-179.enterprise-g1.hosting.acquia.com:cityofla.git
+git remote add origin git@github.com:acquia-pso/lacity.git
+git remote -v
+git status
+ls
+ls -a
+git status
+cd docroot/profiles/la/themes/
+ls
+rm -rf lacity/
+git submodule add git@github.com:acquia-pso/lacitytheme.git lacity
+git branch
+git branch
+cd ladot
+ls
+cd lacity/
+git branch
+git checkout -b lacity origin/lacity
+git log
+cd ../../
+git status

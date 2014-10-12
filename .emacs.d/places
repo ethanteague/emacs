@@ -1,0 +1,485 @@
+;;; -*- coding: utf-8 -*-
+(("/Users/ethanteague/workspace/lacityview/docroot/profiles/la/modules/custom/la_lacity_customizations/"
+  (dired-filename . "/Users/ethanteague/workspace/lacityview/docroot/profiles/la/modules/custom/la_lacity_customizations/la_lacity_customizations.module"))
+ ("/Users/ethanteague/workspace/lacityview/docroot/profiles/la/modules/custom/la_lacity_customizations/la_lacity_customizations.module" . 1989)
+ ("/Users/ethanteague/.emacs" . 1582)
+ ("/Users/ethanteague/.emacs.d/elpa/archives/melpa/archive-contents" . 317540)
+ ("/Users/ethanteague/.emacs.d/elpa/archives/marmalade/archive-contents" . 107944)
+ ("/Users/ethanteague/workspace/lacityview/docroot/profiles/la/modules/custom/"
+  (dired-filename . "/Users/ethanteague/workspace/lacityview/docroot/profiles/la/modules/custom/la_lacity_customizations"))
+ ("/Users/ethanteague/workspace/lacityview/docroot/profiles/la/modules/"
+  (dired-filename . "/Users/ethanteague/workspace/lacityview/docroot/profiles/la/modules/custom"))
+ ("/Users/ethanteague/workspace/lacityview/docroot/profiles/la/"
+  (dired-filename . "/Users/ethanteague/workspace/lacityview/docroot/profiles/la/modules"))
+ ("/Users/ethanteague/.emacs.d/elpa/flymake-phpcs-20140712.2331/flymake-phpcs.el" . 1696)
+ ("/Users/ethanteague/.emacs.d/elpa/flymake-phpcs-20140712.2331/flymake-phpcs-autoloads.el" . 424)
+ ("/Users/ethanteague/workspace/lacityview/docroot/profiles/la/modules/custom/la_lacity_blocks/"
+  (dired-filename . "/Users/ethanteague/workspace/lacityview/docroot/profiles/la/modules/custom/la_lacity_blocks/la_lacity_blocks.module"))
+ ("/Users/ethanteague/workspace/lacityview/docroot/profiles/la/modules/custom/la_lacity_blocks/la_lacity_blocks.module" . 3110)
+ ("/Users/ethanteague/workspace/lacity_theme/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity_theme/js"))
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/templates/page.tpl.php" . 1401)
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/templates/html.tpl.php" . 1786)
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/templates/"
+  (dired-filename . "/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/templates/html.tpl.php"))
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/"
+  (dired-filename . "/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/templates"))
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/"
+  (dired-filename . "/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot"))
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/zen/"
+  (dired-filename . "/Users/ethanteague/workspace/la/docroot/profiles/la/themes/zen/.."))
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/zen/templates/"
+  (dired-filename . "/Users/ethanteague/workspace/la/docroot/profiles/la/themes/zen/templates/.."))
+ ("/Users/ethanteague/workspace/lacity_theme/js/script.js" . 7190)
+ ("/Users/ethanteague/workspace/lacity_theme/js/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity_theme/js/script.js"))
+ ("/Users/ethanteague/workspace/lacity_theme/sass/components/_google_search.scss" . 260)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/.."))
+ ("/Users/ethanteague/workspace/lacity_theme/templates/page.tpl.php" . 3467)
+ ("/Users/ethanteague/workspace/lacity_theme/sass/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity_theme/sass/.."))
+ ("/Users/ethanteague/workspace/lacity_theme/sass/components/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity_theme/sass/components/.."))
+ ("/Users/ethanteague/workspace/lacity_theme/templates/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity_theme/templates/.."))
+ ("/Users/ethanteague/workspace/lacity_theme/sass/components/_misc.scss" . 2074)
+ ("/Users/ethanteague/workspace/lacity_theme/sass/layouts/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity_theme/sass/layouts/_responsive.scss"))
+ ("/Users/ethanteague/workspace/lacity_theme/sass/layouts/_responsive.scss" . 1952)
+ ("/Users/ethanteague/workspace/lacity_theme/sass/theme/_header.scss" . 744)
+ ("/Users/ethanteague/workspace/lacity_theme/sass/theme/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity_theme/sass/theme/.."))
+ ("/Users/ethanteague/workspace/lacity_theme/lacityview.info" . 3762)
+ ("/Users/ethanteague/workspace/lacity_theme/sass/placeholders/_placeholders_header.scss" . 4572)
+ ("/Users/ethanteague/workspace/lacity_theme/sass/placeholders/_placeholders_sidebar.scss" . 247)
+ ("/Users/ethanteague/workspace/lacity_theme/sass/components/_main_bottom.scss" . 303)
+ ("/Users/ethanteague/workspace/lacity_theme/sass/placeholders/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity_theme/sass/placeholders/.."))
+ ("/Users/ethanteague/workspace/lacity_theme/sass/_init.scss" . 4719)
+ ("/Users/ethanteague/workspace/lacity_theme/sass/_normalize.scss" . 3483)
+ ("/Users/ethanteague/workspace/lacity_theme/sass/components/_copyright.scss" . 81)
+ ("/Users/ethanteague/workspace/lacity_theme/sass/components/_header_socials.scss" . 395)
+ ("/Users/ethanteague/workspace/lacity_theme/.gitignore" . 97)
+ ("/Users/ethanteague/workspace/lacity_theme/sass/placeholders/_placeholders_slickstyle.scss" . 283)
+ ("/Users/ethanteague/workspace/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity_theme"))
+ ("/Users/ethanteague/workspace/lacity_theme/sass/components/_tweets_socials_footer.scss" . 1233)
+ ("/Users/ethanteague/workspace/lacity_theme/template.php" . 570)
+ ("/Users/ethanteague/workspace/lacity/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot"))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/custom/la_lacity_customizations/" . 432)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/custom/la_lacity_customizations/la_lacity_customizations.module" . 643)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/custom/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/custom/la_lacity_customizations"))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/custom"))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules"))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la"))
+ ("/Users/ethanteague/workspace/lacity/docroot/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles"))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/custom/la_lacity_blocks/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/custom/la_lacity_blocks/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/custom/la_lacity_blocks/la_lacity_blocks.module" . 1984)
+ ("/Users/ethanteague/workspace/lacityview/.git/"
+  (dired-filename . "/Users/ethanteague/workspace/lacityview/.git/refs"))
+ ("/Users/ethanteague/workspace/lacityview/.git/refs/"
+  (dired-filename . "/Users/ethanteague/workspace/lacityview/.git/refs/.."))
+ ("/Users/ethanteague/workspace/lacityview/.git/objects/"
+  (dired-filename . "/Users/ethanteague/workspace/lacityview/.git/objects/.."))
+ ("/Users/ethanteague/workspace/lacityview/.git/modules/"
+  (dired-filename . "/Users/ethanteague/workspace/lacityview/.git/modules/.."))
+ ("/Users/ethanteague/workspace/lacityview/.git/logs/"
+  (dired-filename . "/Users/ethanteague/workspace/lacityview/.git/logs/.."))
+ ("/Users/ethanteague/workspace/lacityview/.git/logs/refs/"
+  (dired-filename . "/Users/ethanteague/workspace/lacityview/.git/logs/refs/.."))
+ ("/Users/ethanteague/workspace/lacityview/.git/logs/refs/remotes/"
+  (dired-filename . "/Users/ethanteague/workspace/lacityview/.git/logs/refs/remotes/.."))
+ ("/Users/ethanteague/workspace/lacityview/.git/logs/refs/heads/"
+  (dired-filename . "/Users/ethanteague/workspace/lacityview/.git/logs/refs/heads/.."))
+ ("/Users/ethanteague/workspace/lacityview/.git/info/"
+  (dired-filename . "/Users/ethanteague/workspace/lacityview/.git/info/.."))
+ ("/Users/ethanteague/workspace/lacityview/.git/hooks/"
+  (dired-filename . "/Users/ethanteague/workspace/lacityview/.git/hooks/.."))
+ ("/Users/ethanteague/workspace/lacityview/.git/branches/"
+  (dired-filename . "/Users/ethanteague/workspace/lacityview/.git/branches/.."))
+ ("/Users/ethanteague/workspace/lacityview/"
+  (dired-filename . "/Users/ethanteague/workspace/lacityview/.git"))
+ ("/Users/ethanteague/workspace/lacityview/docroot/"
+  (dired-filename . "/Users/ethanteague/workspace/lacityview/docroot/.."))
+ ("/Users/ethanteague/workspace/lacityview/docroot/.gitignore" . 184)
+ ("/Users/ethanteague/workspace/lacityview/.gitignore" . 205)
+ ("/Users/ethanteague/workspace/lacityview/docroot/sites/"
+  (dired-filename . "/Users/ethanteague/workspace/lacityview/docroot/sites/.."))
+ ("/Users/ethanteague/workspace/lacityview/docroot/sites/default/"
+  (dired-filename . "/Users/ethanteague/workspace/lacityview/docroot/sites/default/.."))
+ ("/Users/ethanteague/workspace/lacity_theme/sass/_mixins.scss" . 1213)
+ ("/Users/ethanteague/workspace/lacity_theme/config.rb" . 309)
+ ("/Applications/MAMP/htdocs/la/docroot/profiles/la/themes/zen/templates/page.tpl.php" . 1823)
+ ("/Users/ethanteague/workspace/lacity_theme/theme-settings.php" . 1139)
+ ("/Users/ethanteague/workspace/lacity/factory-hooks/" . 283)
+ ("/Users/ethanteague/workspace/lacity/docroot/sites/g/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/sites/g/sites.inc"))
+ ("/Users/ethanteague/workspace/lacity/docroot/sites/default/" . 501)
+ ("/Users/ethanteague/workspace/lacity/docroot/sites/default/settings.php" . 20744)
+ ("/Users/ethanteague/workspace/lacity/docroot/sites/g/settings.php" . 4133)
+ ("/Users/ethanteague/workspace/lacity/docroot/sites/g/sites.inc" . 2031)
+ ("/Users/ethanteague/workspace/lacity/docroot/mnt/tmp/cityofla01live/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/mnt/tmp/cityofla01live/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/sites/sites.php" . 959)
+ ("/Users/ethanteague/workspace/lacity/docroot/.gitignore" . 184)
+ ("/Users/ethanteague/workspace/lacity/docroot/mnt/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/mnt/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/mnt/gfs/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/mnt/gfs/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/mnt/gfs/cityofla01live/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/mnt/gfs/cityofla01live/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/mnt/gfs/cityofla01live/sites/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/mnt/gfs/cityofla01live/sites/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/mnt/gfs/cityofla01live/sites/g/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/mnt/gfs/cityofla01live/sites/g/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/sites/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/sites/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/mnt/tmp/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/mnt/tmp/cityofla01live"))
+ ("/Users/ethanteague/workspace/lacity/.gitignore" . 205)
+ ("/Users/ethanteague/workspace/lacity/docroot/sites/all/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/sites/all/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/scripts/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/scripts/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/mnt/tmp/cityofla01live/theme_repo/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/mnt/tmp/cityofla01live/theme_repo/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/mnt/tmp/cityofla01live/theme_repo/live/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/mnt/tmp/cityofla01live/theme_repo/live/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/mnt/tmp/cityofla01live/theme_repo/live/sites/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/mnt/tmp/cityofla01live/theme_repo/live/sites/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/mnt/tmp/cityofla01live/theme_repo/live/sites/cityofla_01/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/mnt/tmp/cityofla01live/theme_repo/live/sites/cityofla_01/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/mnt/tmp/cityofla01live/theme_repo/live/sites/cityofla_01/wph266/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/mnt/tmp/cityofla01live/theme_repo/live/sites/cityofla_01/wph266/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/mnt/gfs/cityofla01live/sites/g/files/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/mnt/gfs/cityofla01live/sites/g/files/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/mnt/gfs/cityofla01live/sites/g/files/wph121/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/mnt/gfs/cityofla01live/sites/g/files/wph121/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/mnt/gfs/cityofla01live/sites/g/files/wph121/f/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/mnt/gfs/cityofla01live/sites/g/files/wph121/f/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/mnt/gfs/cityofla01live/sites/g/files/wph121/themes/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/mnt/gfs/cityofla01live/sites/g/files/wph121/themes/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/plupload/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/plupload/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/plupload/plupload.module" . 20338)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/plupload/plupload.js" . 3472)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/plupload/js/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/plupload/js/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/plupload/plupload.install" . 3850)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/libraries/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/libraries/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/libraries/plupload/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/libraries/plupload/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/libraries/plupload/js/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/libraries/plupload/js/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/sass/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/sass/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/sass/components/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/sass/components/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/sass/components/_highlights_page.scss" . 100)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/calendar/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/calendar/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/calendar/includes/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/calendar/includes/calendar.views_template.inc"))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/calendar/includes/calendar.views_template.inc" . 244)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/calendar/includes/calendar_plugin_style.inc" . 11278)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/calendar/includes/calendar.views.inc" . 1446)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/calendar/theme/theme.inc" . 643)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/calendar/theme/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/calendar/theme/theme.inc"))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/calendar/includes/calendar_plugin_row.inc" . 1036)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/calendar/theme/calendar-item.tpl.php" . 1609)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/calendar/theme/calendar-month.tpl.php" . 1274)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/calendar/theme/calendar-month-row.tpl.php" . 326)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/templates/page.tpl.php" . 1354)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/sass/placeholders/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/sass/placeholders/_placeholders_header.scss"))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/sass/placeholders/_placeholders_header.scss" . 1458)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/templates/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/templates/.."))
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/sass/components/"
+  (dired-filename . "/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/sass/components/_misc.scss"))
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/sass/components/_misc.scss" . 1384)
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/sass/"
+  (dired-filename . "/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/sass/components"))
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/sass/_mixins.scss" . 1301)
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/sass/_init.scss" . 4204)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/sass/components/_copyright.scss" . 1092)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/js/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/js/script.js"))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/js/script.js" . 5422)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/lacity.info" . 3219)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/zen/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/zen/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/zen/templates/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/zen/templates/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/zen/templates/page.tpl.php" . 3727)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/custom/la_lacity_weather/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/custom/la_lacity_weather/la_lacity_weather.module"))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/custom/la_lacity_weather/la_lacity_weather.module" . 267)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/custom/la_lacity_weather/la_lacity_weather.js" . 109)
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/sass/components/_header_reset.scss" . 866)
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/sass/layouts/_responsive.scss" . 2851)
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/sass/layouts/"
+  (dired-filename . "/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/sass/layouts/.."))
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/zen/STARTERKIT/sass/layouts/" . 469)
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/zen/STARTERKIT/sass/"
+  (dired-filename . "/Users/ethanteague/workspace/la/docroot/profiles/la/themes/zen/STARTERKIT/sass/layouts"))
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/zen/STARTERKIT/"
+  (dired-filename . "/Users/ethanteague/workspace/la/docroot/profiles/la/themes/zen/STARTERKIT/sass"))
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/sass/placeholders/"
+  (dired-filename . "/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/sass/placeholders/.."))
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/sass/placeholders/_placeholders_sidebar.scss" . 237)
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/js/script.js" . 374)
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/sass/placeholders/_placeholders_header.scss" . 114)
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/sass/placeholders/_placeholders_slickstyle.scss" . 468)
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/js/"
+  (dired-filename . "/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/js/.."))
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/sass/theme/"
+  (dired-filename . "/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/sass/theme/.."))
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/template.php" . 567)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/template.php" . 566)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/sass/_mixins.scss" . 902)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/sass/styles.scss" . 644)
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/sass/styles.scss" . 644)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/sass/_init.scss" . 3456)
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/config.rb" . 1461)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/config.rb" . 1143)
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/"
+  (dired-filename . "/Users/ethanteague/workspace/la/docroot/profiles/la/themes"))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/sass/placeholders/_placeholders_sidebar.scss" . 245)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/sass/theme/_header.scss" . 719)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/sass/components/_misc.scss" . 3373)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/sass/theme/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/sass/theme/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/sass/placeholders/_placeholders_maximenu.scss" . 155)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/sass/layouts/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/sass/layouts/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/menu_block/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/menu_block/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/menu_block/README.txt" . 4457)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/sass/components/_sidebar_home.scss" . 278)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/sass/placeholders/_placeholders_slickstyle.scss" . 420)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/libraries/meanMenu/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/libraries/meanMenu/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/la/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/la/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/sass/layouts/_responsive.scss" . 1181)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/responsive_menus/styles/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/responsive_menus/styles/meanMenu"))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/libraries/meanMenu/README.md" . 2518)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/responsive_menus/styles/meanMenu/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/responsive_menus/styles/meanMenu/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/responsive_menus/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/responsive_menus/styles"))
+ ("/Users/ethanteague/workspace/lacity/docroot/sites/all/modules/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/sites/all/modules/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/sass/components/_highlights_home_features.scss" . 711)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/sass/components/_tweets_socials_footer.scss" . 402)
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/la/js/script.js" . 957)
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/modules/custom/la_lacity_search/"
+  (dired-filename . "/Users/ethanteague/workspace/la/docroot/profiles/la/modules/custom/la_lacity_search/la_lacity_search.module"))
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/modules/custom/"
+  (dired-filename . "/Users/ethanteague/workspace/la/docroot/profiles/la/modules/custom/la_lacity_search"))
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/modules/"
+  (dired-filename . "/Users/ethanteague/workspace/la/docroot/profiles/la/modules/custom"))
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/la/"
+  (dired-filename . "/Users/ethanteague/workspace/la/docroot/profiles/la/themes/la/.."))
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/la/la.info" . 4553)
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/la/templates/page.tpl.php" . 3778)
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/la/sass/components/_misc.scss" . 2467)
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/la/js/"
+  (dired-filename . "/Users/ethanteague/workspace/la/docroot/profiles/la/themes/la/js/.."))
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/la/sass/styles.scss" . 383)
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/la/sass/components/_slideshow.scss" . 136)
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/la/templates/"
+  (dired-filename . "/Users/ethanteague/workspace/la/docroot/profiles/la/themes/la/templates/.."))
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/la/sass/"
+  (dired-filename . "/Users/ethanteague/workspace/la/docroot/profiles/la/themes/la/sass/.."))
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/la/sass/components/"
+  (dired-filename . "/Users/ethanteague/workspace/la/docroot/profiles/la/themes/la/sass/components/.."))
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/la/sass/layouts/"
+  (dired-filename . "/Users/ethanteague/workspace/la/docroot/profiles/la/themes/la/sass/layouts/.."))
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/sass/_normalize.scss" . 8533)
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/ladot.info" . 2722)
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/sass/components/_slideshow.scss" . 84)
+ ("/Users/ethanteague/workspace/la/docroot/profiles/"
+  (dired-filename . "/Users/ethanteague/workspace/la/docroot/profiles/la"))
+ ("/Users/ethanteague/workspace/la/docroot/"
+  (dired-filename . "/Users/ethanteague/workspace/la/docroot/profiles"))
+ ("/Users/ethanteague/workspace/la/"
+  (dired-filename . "/Users/ethanteague/workspace/la/docroot"))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/sass/components/_slideshow.scss" . 233)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/sass/_normalize.scss" . 8730)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/custom/la_lacity_feeds/" . 479)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/custom/la_lacity_feeds/la_lacity_feeds.module" . 9438)
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/sass/components/_news_items.scss" . 321)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/zen/templates/region--footer.tpl.php" . 311)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/zen/zen-internals/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/zen/zen-internals/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/zen/zen-internals/extras/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/zen/zen-internals/extras/.."))
+ ("/Applications/MAMP/htdocs/la_themes/config.rb" . 485)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/custom/la_lacity_twitter/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/custom/la_lacity_twitter/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/libraries/json2/" . 237)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/libraries/json2/json2.js" . 17570)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/twitter/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/twitter/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/twitter/README.txt" . 836)
+ ("/Users/ethanteague/Desktop/la_demo" . 6004)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/flexslider/flexslider_fields/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/flexslider/flexslider_fields/README.txt"))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/flexslider/flexslider_fields/flexslider_fields.module" . 5087)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/flexslider/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/flexslider/flexslider_fields"))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/flexslider/assets/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/flexslider/assets/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/flexslider/assets/js/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/flexslider/assets/js/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/flexslider/assets/js/flexslider.load.js" . 2021)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/flexslider/assets/css/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/flexslider/assets/css/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/flexslider/assets/images/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/flexslider/assets/images/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/flexslider/plugins/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/flexslider/plugins/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/flexslider/plugins/export_ui/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/flexslider/plugins/export_ui/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/flexslider/theme/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/flexslider/theme/.."))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/flexslider/theme/flexslider.tpl.php" . 233)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/flexslider/theme/flexslider.theme.inc" . 3608)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/flexslider/flexslider.module" . 17114)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/custom/la_lacity_weather/la_lacity_weather.info" . 82)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/flexslider/README.txt" . 3467)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/custom/la_lacity_customizations/la_lacity_customizations.info" . 118)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/css/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/css/layouts"))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/images/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/images/help.png"))
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/zen/templates/html.tpl.php" . 1455)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/feeds/feeds.info" . 514)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/feeds/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/feeds/.."))
+ ("/Users/ethanteague/Desktop/"
+  (dired-filename . "/Users/ethanteague/Desktop/.DS_Store"))
+ ("/ssh:textrewa@174.121.236.93:/home/textrewa/public_html/" . 1982)
+ ("/Users/ethanteague/.gitignore" . 19)
+ ("/Users/ethanteague/"
+  (dired-filename . "/Users/ethanteague/.gitconfig"))
+ ("/Users/ethanteague/workspace/lacityview/docroot/profiles/"
+  (dired-filename . "/Users/ethanteague/workspace/lacityview/docroot/profiles/.."))
+ ("/Users/ethanteague/workspace/lacityview/docroot/sites/default/settings.php" . 7804)
+ ("/Users/ethanteague/workspace/la/.gitignore" . 193)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/la.install" . 857)
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/libraries/flexslider/"
+  (dired-filename . "/Users/ethanteague/workspace/lacity/docroot/profiles/la/libraries/flexslider/.."))
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/la.install" . 1325)
+ ("/Applications/MAMP/conf/php5.5.3/"
+  (dired-filename . "/Applications/MAMP/conf/php5.5.3/php.ini"))
+ ("/Applications/MAMP/conf/php5.5.3/php.ini" . 24281)
+ ("/Applications/MAMP/conf/"
+  (dired-filename . "/Applications/MAMP/conf/php5.5.3"))
+ ("/Applications/MAMP/conf/apache/"
+  (dired-filename . "/Applications/MAMP/conf/apache/.."))
+ ("/Applications/MAMP/conf/apache/httpd.conf" . 18616)
+ ("/Applications/MAMP/conf/apache/original/"
+  (dired-filename . "/Applications/MAMP/conf/apache/original/.."))
+ ("/Applications/MAMP/conf/apache/original/extra/"
+  (dired-filename . "/Applications/MAMP/conf/apache/original/extra/.."))
+ ("/Applications/MAMP/conf/apache/original/httpd.conf" . 1241)
+ ("/Applications/MAMP/"
+  (dired-filename . "/Applications/MAMP/conf"))
+ ("/Applications/"
+  (dired-filename . "/Applications/MAMP"))
+ ("/"
+  (dired-filename . "/Applications"))
+ ("/Users/"
+  (dired-filename . "/Users/.."))
+ ("/Users/ethanteague/Applications/"
+  (dired-filename . "/Users/ethanteague/Applications/.."))
+ ("/ssh:globalnet@prod-web.globalnetplatform.org:/home/globalnet/globalnet/sites/default/"
+  (dired-filename . "/ssh:globalnet@prod-web.globalnetplatform.org:/home/globalnet/globalnet/sites/default/settings.php"))
+ ("/ssh:globalnet@prod-web.globalnetplatform.org:/home/globalnet/globalnet/sites/default/settings.php" . 9798)
+ ("/ssh:globalnet@prod-web.globalnetplatform.org:/home/globalnet/globalnet/sites/"
+  (dired-filename . "/ssh:globalnet@prod-web.globalnetplatform.org:/home/globalnet/globalnet/sites/default"))
+ ("/ssh:globalnet@prod-web.globalnetplatform.org:/home/globalnet/globalnet/"
+  (dired-filename . "/ssh:globalnet@prod-web.globalnetplatform.org:/home/globalnet/globalnet/sites"))
+ ("/ssh:globalnet@prod-web.globalnetplatform.org:/home/globalnet/"
+  (dired-filename . "/ssh:globalnet@prod-web.globalnetplatform.org:/home/globalnet/globalnet"))
+ ("/ssh:globalnet@prod-web.globalnetplatform.org:/home/"
+  (dired-filename . "/ssh:globalnet@prod-web.globalnetplatform.org:/home/globalnet"))
+ ("/ssh:globalnet@stage.globalnetplatform.org:/home/globalnet/stage/sites/default/"
+  (dired-filename . "/ssh:globalnet@stage.globalnetplatform.org:/home/globalnet/stage/sites/default/settings.php"))
+ ("/ssh:globalnet@stage.globalnetplatform.org:/home/globalnet/stage/sites/default/settings.php" . 1278)
+ ("/ssh:globalnet@prod-web.globalnetplatform.org:/home/globalnet/globalnet/sites/default/settings.local.php" . 823)
+ ("/ssh:globalnet@stage.globalnetplatform.org:/home/globalnet/stage/sites/"
+  (dired-filename . "/ssh:globalnet@stage.globalnetplatform.org:/home/globalnet/stage/sites/default"))
+ ("/ssh:globalnet@stage.globalnetplatform.org:/home/globalnet/stage/"
+  (dired-filename . "/ssh:globalnet@stage.globalnetplatform.org:/home/globalnet/stage/sites"))
+ ("/ssh:globalnet@stage.globalnetplatform.org:/home/globalnet/"
+  (dired-filename . "/ssh:globalnet@stage.globalnetplatform.org:/home/globalnet/stage"))
+ ("/ssh:globalnet@stage.globalnetplatform.org:/home/"
+  (dired-filename . "/ssh:globalnet@stage.globalnetplatform.org:/home/globalnet"))
+ ("/ssh:globalnet@stage.globalnetplatform.org:/home/globalnet/stage/sites/default/settings.local.php" . 599)
+ ("/ssh:globalnet@stage.globalnetplatform.org:/home/globalnet/stage/sites/all/themes/globalnet_lowband/" . 1063)
+ ("/ssh:globalnet@stage.globalnetplatform.org:/home/globalnet/stage/sites/all/themes/globalnet_lowband/page.tpl.php" . 1332)
+ ("/ssh:globalnet@stage.globalnetplatform.org:/home/globalnet/stage/sites/all/themes/"
+  (dired-filename . "/ssh:globalnet@stage.globalnetplatform.org:/home/globalnet/stage/sites/all/themes/globalnet_lowband"))
+ ("/ssh:globalnet@stage.globalnetplatform.org:/home/globalnet/stage/sites/all/"
+  (dired-filename . "/ssh:globalnet@stage.globalnetplatform.org:/home/globalnet/stage/sites/all/themes"))
+ ("/ssh:globalnet@dev.globalnetplatform.org:/home/globalnet/dev/sites/all/modules/custom/globalnet_group_types/"
+  (dired-filename . "/ssh:globalnet@dev.globalnetplatform.org:/home/globalnet/dev/sites/all/modules/custom/globalnet_group_types/globalnet_group_types.module"))
+ ("/ssh:globalnet@dev.globalnetplatform.org:/home/globalnet/dev/sites/all/modules/custom/globalnet_group_types/globalnet_group_types.module" . 22586)
+ ("/Applications/MAMP/htdocs/globalnet/docroot/sites/all/modules/custom/globalnet_group_types/"
+  (dired-filename . "/Applications/MAMP/htdocs/globalnet/docroot/sites/all/modules/custom/globalnet_group_types/globalnet_group_types.module"))
+ ("/Applications/MAMP/htdocs/globalnet/sites/all/modules/custom/globalnet_group_types/globalnet_group_types.module" . 23065)
+ ("/ssh:globalnet@dev.globalnetplatform.org:/home/globalnet/dev/sites/all/modules/custom/"
+  (dired-filename . "/ssh:globalnet@dev.globalnetplatform.org:/home/globalnet/dev/sites/all/modules/custom/globalnet_group_types"))
+ ("/ssh:globalnet@dev.globalnetplatform.org:/home/globalnet/dev/sites/all/modules/"
+  (dired-filename . "/ssh:globalnet@dev.globalnetplatform.org:/home/globalnet/dev/sites/all/modules/custom"))
+ ("/ssh:globalnet@dev.globalnetplatform.org:/home/globalnet/dev/sites/all/"
+  (dired-filename . "/ssh:globalnet@dev.globalnetplatform.org:/home/globalnet/dev/sites/all/modules"))
+ ("/ssh:globalnet@dev.globalnetplatform.org:/home/globalnet/dev/sites/"
+  (dired-filename . "/ssh:globalnet@dev.globalnetplatform.org:/home/globalnet/dev/sites/all"))
+ ("/ssh:globalnet@dev.globalnetplatform.org:/home/globalnet/dev/"
+  (dired-filename . "/ssh:globalnet@dev.globalnetplatform.org:/home/globalnet/dev/sites"))
+ ("/ssh:globalnet@dev.globalnetplatform.org:/home/globalnet/"
+  (dired-filename . "/ssh:globalnet@dev.globalnetplatform.org:/home/globalnet/dev"))
+ ("/ssh:globalnet@dev.globalnetplatform.org:/home/"
+  (dired-filename . "/ssh:globalnet@dev.globalnetplatform.org:/home/globalnet"))
+ ("/ssh:globalnet@dev.globalnetplatform.org:/home/globalnet/dev/sites/default/"
+  (dired-filename . "/ssh:globalnet@dev.globalnetplatform.org:/home/globalnet/dev/sites/default/settings.local.php"))
+ ("/ssh:globalnet@dev.globalnetplatform.org:/home/globalnet/dev/sites/default/settings.local.php" . 536)
+ ("/ssh:globalnet@dev.globalnetplatform.org:/home/ec2-user/" . 60)
+ ("/ssh:globalnet@dev.globalnetplatform.org:/home/globalnet/dev/sites/default/settings.php" . 10971)
+ ("/ssh:globalnet@dev.globalnetplatform.org:/home/globalnet/dev/sites/all/themes/"
+  (dired-filename . "/ssh:globalnet@dev.globalnetplatform.org:/home/globalnet/dev/sites/all/themes/.."))
+ ("/ssh:globalnet@dev.globalnetplatform.org:/home/globalnet/dev/sites/all/themes/globalnet_lowband/"
+  (dired-filename . "/ssh:globalnet@dev.globalnetplatform.org:/home/globalnet/dev/sites/all/themes/globalnet_lowband/.."))
+ ("/ssh:globalnet@dev.globalnetplatform.org:/home/globalnet/dev/sites/all/themes/globalnet_lowband/page.tpl.php" . 1333)
+ ("/ssh:globalnet@dev.globalnetplatform.org:/"
+  (dired-filename . "/ssh:globalnet@dev.globalnetplatform.org:/home"))
+ ("/ssh:globalnet@dev.globalnetplatform.org:/dev/"
+  (dired-filename . "/ssh:globalnet@dev.globalnetplatform.org:/dev/.."))
+ ("/etc/hosts" . 157)
+ ("/ssh:fortycak@50.22.11.22:/home/fortycak/public_html/"
+  (dired-filename . "/ssh:fortycak@50.22.11.22:/home/fortycak/public_html/cakes"))
+ ("/ssh:fortycak@50.22.11.22:/home/fortycak/public_html/cakes/"
+  (dired-filename . "/ssh:fortycak@50.22.11.22:/home/fortycak/public_html/cakes/error_log"))
+ ("/Users/ethanteague/.drush/local.aliases.drushrc.php" . 689)
+ ("/Users/ethanteague/.drush/gn.aliases.drushrc.php" . 1726)
+ ("/Users/ethanteague/.drush/ca.aliases.drushrc.php" . 4842))
