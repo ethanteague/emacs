@@ -1,0 +1,128 @@
+git checkout ethan-first-feature-branch-based-off-of-integration
+git pull
+ls
+drush features-update mow_staffviewfields/
+cd ../../
+svn up
+cd drupal/themes/
+svn up
+svn up
+cd themes/
+ls
+ls
+cd mmg_explore_lou/
+find . -type d -name .svn -exec rm -rf {} \;
+ls
+cd templates/
+ls
+cd ../
+cd ../mmg_aurora/
+ls
+cd ../mmg_explore_lou/
+svn st -u
+cd ../mmg_aurora/
+svn st -u
+cd ../mmg_explore_lou/
+compass compile
+cd ../
+svn add mmg_explore_lou/
+svn ci -m "add explore theme for fall page"
+cd mmg_explore_lou/
+svn ci -m "theme logic"
+svn ci -m "theme logic"
+compass compile
+compass compile
+svn ci -m "theme logic"
+svn ci -m "theme logic"
+ls
+cd templates/
+ls
+cd ../
+compass compile
+cd ../../
+svn up
+cd modules/local_globals/
+svn up
+svn ci -m "add custom theme hook function"
+svn ci -m "test"
+svn ci -m "test"
+git st
+git pull
+find .git -name config -type f -exec sed -i 's/[a-z|@]*saturn\.milesmedia\.com/gitdev@git.milesmedia.com/g' {} \;
+git pull
+svn add *
+cd ../
+svn ci -m "add tpl"
+rgrep
+cd ../
+compass compile
+compass compile
+compass compile
+compass compile
+compass compile
+compass compile
+ssh garbear2003@chicagocarrypermit.com
+git pull
+git branch
+git checkout GN-44-Ethan
+git branch
+drush uli
+drush cc all
+drush cc all
+drush uli admin
+git pull
+git pull remote GN-44-ETHAN
+gitpull
+git pull
+git checkout october
+git pull
+rm comment_upload.module
+git pull
+git reset HEAD --hard
+git pull
+drush uli admin
+git branch
+ls
+cd workspace/cd ../
+ls
+ls -a
+cd .openvpn/
+openvpn client.conf
+sudo openvpn client.conf
+drush use @fbt.dev
+drush uli
+cd workspace/fbt/
+ssh peeps@web-24.castle.hosting.acquia.com
+cd workspace/_peeps/ppo/modules/custom/ppo_solr_exporter/
+ls
+git add SolrPhpClient/
+git add ppo_solr_exporter.module 
+git commit -m "PPO-898 adding SolrPhpClient"
+git rm -rf SolrPhpClient/
+ls
+cd workspace/lacity/
+git status
+git remote add ethan git@github.com:ethanteague/lacity.git
+git init
+git remote add ethan git@github.com:ethanteague/lacity.git
+git remote add acquia cityofla@svn-179.enterprise-g1.hosting.acquia.com:cityofla.git
+git remote add origin git@github.com:acquia-pso/lacity.git
+git remote -v
+git status
+ls
+ls -a
+git status
+cd docroot/profiles/la/themes/
+ls
+rm -rf lacity/
+git submodule add git@github.com:acquia-pso/lacitytheme.git lacity
+git branch
+git branch
+cd ladot
+ls
+cd lacity/
+git branch
+git checkout -b lacity origin/lacity
+git log
+cd ../../
+git status

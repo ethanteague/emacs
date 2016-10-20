@@ -1,0 +1,360 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/ethan/workspace/gn2/docroot/sites/all/themes/gn2_zen/sass/" . "component/")
+ ("/home/ethan/workspace/gn2/docroot/sites/all/themes/gn2_zen/" . "js/")
+ ("/home/ethan/workspace/gn2/docroot/sites/all/themes/" . "gn2_zen/")
+ ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/themes/gn2_zen/css/" . "component/")
+ ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/themes/gn2_zen/" . "css/")
+ ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/themes/" . "gn2_zen/")
+ ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/" . "themes/")
+ ("/home/ethan/workspace/agile-ms/docroot/" . "css/")
+ ("/home/ethan/workspace/agile-ms/" . "docroot/")
+ ("/home/ethan/workspace/ms/public/" . "css/")
+ ("/home/ethan/workspace/ms/" . "js/")
+ ("/home/ethan/workspace/new_pnm/.docker/" . "etc/")
+ ("/home/ethan/workspace/new_pnm/" . ".docker/")
+ ("/home/ethan/workspace/gn2/docroot/sites/all/modules/custom/gn2_sessions/" . "gn2_sessions_fc/")
+ ("/home/ethan/workspace/gn2/docroot/sites/all/modules/custom/" . "gn2_support_desk/")
+ ("/home/ethan/workspace/gn2/docroot/sites/all/modules/" . "custom/")
+ ("/home/ethan/workspace/gn2/docroot/sites/all/" . "modules/")
+ ("/home/ethan/workspace/gn2/docroot/sites/" . "all/")
+ ("/home/ethan/workspace/gn2/docroot/" . "sites/")
+ ("/home/ethan/workspace/gn2/" . "docroot/")
+ ("/home/ethan/workspace/bbs/docroot/sites/all/modules/custom/" . "ca_events/")
+ ("/home/ethan/workspace/bbs/docroot/sites/all/modules/" . "custom/")
+ ("/home/ethan/workspace/bbs/docroot/sites/all/" . "modules/")
+ ("/home/ethan/workspace/bbs/docroot/sites/" . "all/")
+ ("/home/ethan/workspace/bbs/docroot/" . "sites/")
+ ("/home/ethan/workspace/bbs/" . "docroot/")
+ ("/home/" . "ethan/")
+ ("/home/ethan/workspace/" . "gn2/")
+ ("/home/ethan/" . "workspace/")
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/zen/" . "templates/")
+ ("/Users/ethanteague/workspace/lacity_theme/sass/" . "placeholders/")
+ ("/Users/ethanteague/workspace/lacity_theme/" . "js/")
+ ("/Users/ethanteague/workspace/lacity/factory-hooks/" . "post-settings-php/")
+ ("/Users/ethanteague/Downloads/" . "bulk_media_upload/")
+ ("/Users/ethanteague/workspace/lacity/docroot/sites/all/modules/" . "responsive_menu/")
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/zen/" . "templates/")
+ ("/Users/ethanteague/workspace/lacity/docroot/sites/all/" . "modules/")
+ ("/Users/ethanteague/workspace/lacity/docroot/sites/" . "g/")
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/la/sass/" . "components/")
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/la/" . "js/")
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/" . "zen/")
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/" . "sass/")
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/sass/" . "layouts/")
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/sass/" . "components/")
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/custom/" . "la_lacity_customizations/")
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/" . "themes/")
+ ("/Users/ethanteague/workspace/la/docroot/profiles/" . "la/")
+ ("/Users/ethanteague/workspace/la/docroot/" . "profiles/")
+ ("/Users/ethanteague/workspace/la/" . "docroot/")
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/" . "calendar/")
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/" . "lacity/")
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/" . "js/")
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/" . "custom/")
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/" . "modules/")
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/" . "la/")
+ ("/Users/ethanteague/workspace/lacity/docroot/" . "profiles/")
+ ("/Users/ethanteague/workspace/lacity/" . "docroot/")
+ ("/Users/ethanteague/workspace/lacityview/docroot/profiles/la/themes/" . "lacityview/")
+ ("/Users/ethanteague/workspace/lacityview/docroot/profiles/la/" . "themes/")
+ ("/Users/ethanteague/workspace/lacityview/docroot/profiles/" . "la/")
+ ("/Users/ethanteague/workspace/lacityview/docroot/sites/" . "default/")
+ ("/Users/ethanteague/workspace/lacityview/docroot/" . "sites/")
+ ("/Users/ethanteague/workspace/lacityview/" . "docroot/")
+ ("/Users/ethanteague/workspace/" . "la/")
+ ("/Applications/MAMP/htdocs/globalnet/docroot/sites/all/modules/custom/" . "globalnet_group_types/")
+ ("/Applications/MAMP/htdocs/globalnet/docroot/sites/all/modules/" . "custom/")
+ ("/Applications/MAMP/htdocs/globalnet/docroot/sites/all/" . "modules/")
+ ("/Applications/MAMP/htdocs/globalnet/docroot/sites/" . "all/")
+ ("/Applications/MAMP/htdocs/globalnet/docroot/" . "sites/")
+ ("/Applications/MAMP/htdocs/globalnet/" . "docroot/")
+ ("/Applications/MAMP/htdocs/dscadev/docroot/sites/all/" . "modules/")
+ ("/Applications/MAMP/htdocs/dscadev/docroot/sites/" . "all/")
+ ("/Applications/MAMP/htdocs/dscadev/docroot/" . "sites/")
+ ("/Applications/MAMP/htdocs/dscadev/sites/" . "default/")
+ ("/Applications/MAMP/htdocs/dscadev/" . "docroot/")
+ ("/Applications/MAMP/htdocs/" . "globalnet/")
+ ("/Applications/MAMP/" . "htdocs/")
+ ("/Applications/" . "MAMP/")
+ ("/Users/" . "ethanteague/")
+ ("/" . "Applications/")
+ ("/Users/ethanteague/" . "workspace/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/ethan/"
+ "/home/ethan/workspace/gn2/docroot/sites/all/modules/custom/gn2_support_desk/"
+ "/home/ethan/workspace/gn2/docroot/sites/all/modules/custom/"
+ "/home/ethan/workspace/gn2/docroot/sites/all/modules/custom/gn2_adobe_connect/"
+ "/home/ethan/workspace/gn2/docroot/sites/all/themes/gn2_zen/js/"
+ "/home/ethan/workspace/gn2/docroot/sites/all/themes/gn2_zen/sass/component/"
+ "/home/ethan/workspace/gn2/docroot/sites/"
+ "/home/ethan/workspace/"
+ "/home/ethan/.emacs.d/"
+ "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/themes/gn2_zen/css/component/"
+ "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/modules/custom/gn2_support_desk/"
+ "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/"
+ "/home/ethan/workspace/agile-ms/docroot/"
+ "/home/ethan/workspace/agile-ms/docroot/css/"
+ "/home/ethan/workspace/ms/js/"
+ "/home/ethan/workspace/ms/"
+ "/home/ethan/workspace/ms/css/"
+ "/home/ethan/.homesick/repos/dotdaven/home/"
+ "/home/ethan/workspace/new_pnm/"
+ "/home/ethan/workspace/pnm/"
+ "/home/ethan/workspace/new_pnm/.bowline/"
+ "/home/ethan/workspace/new_pnm/.docker/etc/"
+ "/home/ethan/workspace/gn2/docroot/sites/all/modules/custom/gn2_sessions/gn2_sessions_fc/"
+ "/home/ethan/workspace/bbs/docroot/sites/all/modules/custom/ca_events/"
+ "/home/ethan/workspace/bbs/"
+ "/Users/ethanteague/"
+ "/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/templates/"
+ "/Users/ethanteague/workspace/la/docroot/profiles/la/themes/zen/templates/"
+ "/Users/ethanteague/workspace/la/docroot/profiles/la/themes/"
+ "/Users/ethanteague/workspace/lacity_theme/sass/components/"
+ "/Users/ethanteague/workspace/lacity_theme/js/"
+ "/Users/ethanteague/workspace/lacity_theme/sass/"
+ "/Users/ethanteague/workspace/lacity_theme/sass/placeholders/"
+ "/Users/ethanteague/workspace/lacity_theme/"
+ "/Users/ethanteague/workspace/lacity_theme/templates/"
+ "/Users/ethanteague/workspace/lacity/"
+ "/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/custom/"
+ "/Users/ethanteague/workspace/lacityview/docroot/sites/default/"
+ "/Users/ethanteague/workspace/lacityview/"
+ "/Users/ethanteague/workspace/lacity/factory-hooks/"
+ "/Users/ethanteague/workspace/lacity/factory-hooks/post-settings-php/"
+ "/Users/ethanteague/workspace/lacity/docroot/sites/g/"
+ "/Users/ethanteague/workspace/lacity/docroot/sites/default/"
+ "/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/custom/la_lacity_customizations/"
+ "/Users/ethanteague/workspace/lacity/docroot/sites/"
+ "/Users/ethanteague/workspace/lacity/docroot/"
+ "/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/"
+ "/Users/ethanteague/Downloads/bulk_media_upload/"
+ "/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/sass/components/"
+ "/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/calendar/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".emacs"
+ ".emacs-places"
+ "gn2_adobe_connect.module"
+ "script.js"
+ "_block__sessions_fc.scss"
+ "gn2_support_desk.module"
+ "gn2_support_desk.features.field_base.inc"
+ "ac-comphist.dat"
+ "jira.json"
+ "app.js"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/ethan/" (22536 51508 157780 330000) ".gnome/" ".bash_logout" "Desktop/" ".terminus/" ".putty/" ".sudo_as_admin_successful" ".gem/" ".Xauthority" "Videos/" ".mozilla/" "powerline-shell/" ".local/" ".thunderbird/" ".dmrc" ".profile" ".mysql_history" "Public/" ".adobe/" ".node_repl_history" ".themes/" ".npm/" "Music/" ".emacs~" ".gimp-2.8/" ".java/" ".gksu.lock" ".gconf/" "Documents/" ".v8flags.4.5.103.35.ethan.json" ".emacs-places" "cbttunnel.jar" "..profile.swp" "./" ".emacs" ".bashrc" ".wget-hsts" ".dbus/" ".bash_aliases" "terminus/" ".drush/" ".eslintrc" ".rnd" ".ssh/" ".icons/" "Downloads/" ".emacs.d/" "phpstorm.desktop" "../" ".gitconfig.save" ".bash_history" ".xsession-errors" ".gitconfig" ".homesick/" ".gnupg/" "lib/" ".thumbnails/" ".PhpStorm2016.2/" ".drushrc.php" ".hplip/" ".cache/" "workspace/" ".mysql/" ".babel.json" ".nano/" "Templates/" ".config/" ".xsession-errors.old" ".pki/" "Pictures/" ".ICEauthority" ".gitignore_global" ".macromedia/" "powerline-shell.py")
+
+ ("/home/ethan/workspace/gn2/docroot/sites/all/modules/custom/gn2_support_desk/" (22533 29125 604320 595000) "gn2_support_desk.views_default.inc" "gn2_support_desk.features.field_instance.inc" "gn2_support_desk.strongarm.inc" "gn2_support_desk.field_group.inc" "gn2_support_desk.module" "./" "gn2_support_desk.pages_default.inc" "gn2_support_desk.rules_defaults.inc" "gn2_support_desk.features.user_permission.inc" "gn2_support_desk.features.inc" "gn2_support_desk.info" "../" "gn2_support_desk.js" "gn2_support_desk.features.field_base.inc")
+
+ ("/home/ethan/workspace/gn2/docroot/sites/all/modules/custom/gn2_adobe_connect/" (22533 5896 134755 837000) "gn2_adobe_connect.info" "gn2_adobe_connect.module" "./" "gn2_adobe_connect.features.inc" "../" "gn2_adobe_connect.features.fe_block_settings.inc" "gn2_adobe_connect.views.inc" "gn2_adobe_connect.views_default.inc" "#gn2_adobe_connect.module#" "gn2_adobe_connect_handler_filter_datetime.inc" ".#gn2_adobe_connect.module" "gn2_adobe_connect.install")
+
+ ("/home/ethan/workspace/gn2/docroot/sites/all/themes/gn2_zen/js/" (22507 53177 722541 190000) "colorbox-delay.js" "script.js" "jquery.customSelect.js" "README.txt" "./" "../")
+
+ ("/home/ethan/workspace/gn2/docroot/sites/all/themes/gn2_zen/sass/component/" (22532 52874 363214 442000) "_user__account--polls.scss" "_user__account--posts.scss" "_news-list-view-page.scss" "_user__account--groups.scss" "_view__admin__manage-members.scss" "_navigation-wrapper--mobile.scss" "_panels__sidebar--org-info.scss" "_menu__admin.scss" "_user__profile--comments.scss" "_block__gtranslate.scss" "_block_news-announcement-publications.scss" "_node-scheduler.scss" "_table__file-downloads.scss" "_comments--reply-form.scss" "_user__uif-import-form.scss" "_downloadable-file.scss" "_block__upcoming_events.scss" "_view-mode__search_teaser_with_thumb__user.scss" "_teasers__course.scss" "_inbox__message--list.scss" "_teasers__event.scss" "_node__display-page.scss" "_panels__sidebar-elements.scss" "_view__news-slideshow.scss" "_page__search--content.scss" "_user__account--activity.scss" "_header--anon.scss" "_block__node_content__body_content.scss" "_block__active_communities.scss" "_breadcrumbs.scss" "_user__account--comments.scss" "_page__guide.scss" "_form__forgot-password.scss" "_user__profile__header--edit-links.scss" "_menu__org.scss" "_pager.scss" "_block__login.scss" "_header.scss" "_block__other-posts-by-this-author.scss" "_view-mode__post-teaser-group-landing-page.scss" "_inbox__message--full.scss" "_block__contact--group-admin.scss" "_node__display-event.scss" "_node__form__poll.scss" "_media.scss" "_view__registrants.scss" "_node__form__course.scss" "_panels__pane--group-help.scss" "_page__dashboard.scss" "_page__organization_hierarchy.scss" "_table__logins-by-country.scss" "_tabs.scss" "_block___recent_activity.scss" "_view__gn2-notifications.scss" "_node__display-group.scss" "_comments.scss" "_user__account--contacts.scss" "_block__highlighted--lightbg.scss" "_user__account--events.scss" "_block__sidebar_node_list.scss" "_media__gallery.scss" "_node__display-program.scss" "_view__admin-content.scss" "_page__group_admin.scss" "_block__call-to-action.scss" "_node__form__event--contact-tab.scss" "_block_profile__sidebar--image-text-block.scss" "_block__events_calendar.scss" "_block__my_recent_courses.scss" "_component.scss" "_block__highlighted--darkbg.scss" "_view-mode__user--info-block.scss" "_node__form__event.scss" "_tables.scss" "_node__display-announcement.scss" "_buttons.scss" "_node__display-poll.scss" "_user__account--favorites.scss" "_node__display-news.scss" "_form__course-feedback.scss" "_node__form--date-fields.scss" "_node__form__organization.scss" "_page__search--members.scss" "_teasers__one-column.scss" "_node__display-post.scss" "_block__latest_activity.scss" "_form__media-browser.scss" "_page__topics.scss" "_view__taxonomy.scss" "_block__announcements.scss" "_misc.scss" "_node__display.scss" "_devel.scss" "_org-brand--small.scss" "_teasers.scss" "_user__account.scss" "_footer.scss" "_flag--favorite.scss" "_node__display-publication.scss" "_teasers__two-column.scss" "_like.scss" "_page__support_ticket.scss" "README.md" "_block__adobe_connect.scss" "_block__sessions_fc.scss" "_node__display-coi.scss" "_inbox__links-block.scss" "_node__form__group.scss" "_user__profile--page.scss" "_block__current_courses.scss" "_page__metrics.scss" "_form__useer_profile_edit.scss" "_page__home.scss" "_page__subscription.scss" "_node__display-course.scss" "_user__profile--edit.scss" "_user__account--page.scss" "_drupal-overrides.scss" "_menu__group-admin.scss" "_block__event_contacts.scss" "_community__listing.scss" "_block__related_stories.scss" "_page__relationships.scss" "_icons.scss" "_inbox.scss" "_view__subgroups.scss" "_footer__dropdown.scss" "_view__associated-files.scss" "_navigation-wrapper.scss" "_block__about_this_author.scss" "_node__form__add-post-mini-form.scss" "_node__form__link_fields.scss" "_custom-search-default-block.scss" "_block___defaults.scss" "_node__course--sessions.scss" "_media__list.scss" "_view__related-groups.scss" "_view__group-publications.scss" "_user--sidebar.scss" "_node__form.scss" "_page__entity_form.scss" "_block__event_registration.scss" "_page__admin_files.scss" "_image-captions.scss" "_block__search_member.scss" "_user__profile--header.scss" "_node__form__media_fields.scss" "_block__content--teaser.scss" "../" "./")
+
+ ("/home/ethan/workspace/gn2/docroot/sites/all/themes/gn2_zen/sass/" (22529 31449 707265 870000) "core/" "skin/" "base/" "component/" "README.txt" "styles.scss" "./" "layout/" "../")
+
+ ("/home/ethan/workspace/gn2/docroot/sites/all/themes/gn2_zen/" (22518 22023 25348 362000) "css/" "panels-layouts/" "Gem_Guard_README.md" ".bundle/" "favicon.ico" "images/" "theme-settings.php" "sass-extensions/" "config.rb" "node_modules/" "README.txt" "sass/" "Gruntfile.js" "templates/" "./" "Guardfile" "package.json" "logo.png" "../" "Gemfile.lock" ".sass-cache/" "template.php" "fonts/" "Gemfile" "screenshot.png" "js/" "gn2_zen.info")
+
+ ("/home/ethan/workspace/gn2/docroot/sites/all/themes/" (22439 22441 707680 530000) "gn2_zen/" "README.txt" "./" "zen/" "../" "blossom-admin/")
+
+ ("/home/ethan/workspace/gn2/" (22532 52936 742997 76000) "Vagrantfile" "logs/" "tests/" "scripts/" ".pre-import.sql.gz" ".idea/" ".gitignore" ".snapshot.sql.gz" "docker-compose.yml" "docs/" ".profile" "vendor/" ".gitattributes" "xhprof/" ".dummy/" "composer.json" "bin/" ".composer/" "docroot/" "./" "patches/" ".docker-registry-mirror/" ".bashrc" "composer.lock" ".drush/" ".ssh/" ".git/" "../" "simplesamlphp/" "files-private/" ".docker/" "lib/" "version_history.txt" "readme.md")
+
+ ("/home/ethan/.emacs.d/elpa/phpcbf-20150302.528/" (22532 54471 29251 645000) "phpcbf-pkg.el" "phpcbf-autoloads.el" "./" "phpcbf.elc" "../" "phpcbf.el" "phpcbf-pkg.elc" "phpcbf-autoloads.el~")
+
+ ("/home/ethan/.emacs.d/" (22532 14857 571333 611000) "geben/" "auto-save-list/" "direx-project.el" "session.2a17221bc-0759-4d6b-96c1-441fbceaf836" "session.10331f098ead0214b8147655749553306000000015860120" "session.224857450-1eee-4ceb-8e66-ecb1a73c7f45" "session.277a811e3-5748-4504-8090-dc6444f8c6a1" "session.2ee2313b4-3fdf-4c16-a494-94a209390d42" "session.2c4ea229b-a042-473c-9bf6-a4d22352f549" "tramp" "session.2cbdb9cef-a565-4159-8b6e-7c557aed832d" "ede-projects.el" "session.2b8378818-480d-416d-8366-cab12f6822f4" "vendor/" "session.2b21d3508-cdfc-41a8-be92-ff09bed6826d" "session.26d2e890b-0ac8-4b4a-b6cb-bcf6a63285bd" "windata.el" "ac-comphist.dat" "elpa/" "session.29ea29d93-43fe-489a-869d-e1193888b74d" "scss-mode.el" "eshell/" "drupal/" "session.2851e7e12-1d0e-43ae-991f-46f5bc2d5b81" "session.2819bc2ed-8508-44c1-901b-ea1858de3aea" "tree-mode.el" "url/" "ido.last~" "./" "extras/" "ido.last" "session.20d875145-3b46-4b1f-afc7-79d34d1e405a" "session.10331f098ead0214b8147655831936913700000015860123" "session.28622e986-a722-4215-88cf-4ba1856ecf01" "session.212eb7d11-9d96-4c6d-9b5a-88ac765cf313" "session.2f0042df8-d993-4da8-b50d-d25b8d03aa0a" "dirtree.el" "../" "session.2100d61c5-bc1c-4ea7-a5e9-f5b77faea062" "session.10331f098ead0214b8147655794240050500000015860122" "session.246bb7fdd-1db6-4269-b3ee-3c30d5a37c54" "session.298345aa7-416a-45ad-ac60-74c8ae129582" "snippets/" "session.248ee98df-e3cb-40e2-94ed-6a98d7d00046" "session.2682fd9be-ed9e-45fe-823c-5e9fe9e2759e" "session.2f3e3ca3b-4fb5-457a-90fa-745ac42b05db" "direx.el" "places" "session.2135a954f-fc8d-40cc-820b-9c618f725b8e")
+
+ ("/home/ethan/.config/" (22513 32172 47265 819000) "autostart/" "appgrid/" "composer/" "folder-color/" "tilda/" "gtk-2.0/" "plank/" "google-chrome/" "update-notifier/" "opera/" "user-dirs.locale" "gtk-3.0/" "caja/" "pulse/" "dconf/" "synapse/" "libreoffice/" "./" "menus/" "monitors.xml" "../" "Blue Jeans/" "Trolltech.conf" "chromium/" "galculator/" "mate/" "mate-session/" "vlc/" "mate-menu/" "filezilla/" "yelp/" "ubuntu-mate/" "enchant/" "mimeapps.list" "configstore/" "pluma/" "user-dirs.dirs")
+
+ ("/home/ethan/.config/composer/" (22461 65344 500285 529000) "keys.dev.pub" "vendor/" "keys.tags.pub" "composer.json" "./" ".htaccess" "composer.lock" "../")
+
+ ("/home/ethan/.config/composer/vendor/" (22530 16371 378576 877000) "symfony/" "composer/" "pear/" "d11wtq/" "autoload.php" "bin/" "drupal/" "squizlabs/" "./" "drush/" "../" "psr/")
+
+ ("/home/ethan/.config/composer/vendor/drupal/" (22439 39055 157248 465000) "./" "../" "coder/")
+
+ ("/home/ethan/.config/composer/vendor/drupal/coder/" (22439 39056 781253 253000) "scripts/" "coder_sniffer/" "composer.json" "./" "composer.lock" "README.md" "../" ".travis.yml" "phpunit.xml.dist")
+
+ ("/home/ethan/.config/composer/vendor/drupal/coder/coder_sniffer/" (21679 57173 0 0) "DrupalPractice/" "Drupal/" "./" "../" "drupalcs.drush.inc")
+
+ ("/home/ethan/.config/composer/vendor/drupal/coder/coder_sniffer/Drupal/" (21679 57173 0 0) "ruleset.xml" "Sniffs/" "Docs/" "./" "Test/" "../" "drupalcs.info")
+
+ ("/home/ethan/.emacs.d/elpa/" (22531 50862 367502 173000) "underwater-theme-20120615.1149/" "simple+-readme.txt" "zen-and-art-theme-20120622.937/" "legalese-readme.txt" "apache-mode-readme.txt" "ido-hacks-readme.txt" "jump-readme.txt" "smooth-scrolling-readme.txt" "soundcloud-readme.txt" "dired-dups-readme.txt" "window-jump-readme.txt" "php-mode-readme.txt" "sublime-themes-20130727.1028/" "pastels-on-dark-theme-readme.txt" "kv-20140108.734/" "color-theme-sanityinc-tomorrow-readme.txt" "magit-gh-pulls-readme.txt" "aok-readme.txt" "flymake-0.4.16/" "docbook-readme.txt" "tabbar-ruler-readme.txt" "ctags-readme.txt" "sauron-readme.txt" "js2-mode-readme.txt" "autopair-readme.txt" "scratch-readme.txt" "auto-dim-other-buffers-readme.txt" "e2wm-readme.txt" "flymake-checkers-0.5/" "rainbow-mode-readme.txt~" "seq-2.16/" "4clojure-readme.txt" "s-20130617.1851/" "sass-mode-readme.txt" "magit-annex-readme.txt" "rinari-readme.txt" "show-marks-readme.txt" "gitconfig-readme.txt" "dired+-readme.txt" "epl-readme.txt" "revive-readme.txt" "ido-complete-space-or-hyphen-readme.txt" "db-readme.txt" "dismal-readme.txt" "git-gutter-20130919.2251/" "skeletor-readme.txt" "temp-buffer-browse-readme.txt" "magit-readme.txt" "undo-tree-readme.txt~" "magit-commit-training-wheels-readme.txt" "eproject-readme.txt" "f-20130920.1821/" "multi-web-mode-readme.txt" "let-alist-1.0.4.signed" "auto-save-buffers-enhanced-readme.txt" "solarized-theme-20130804.1649/" "auto-dictionary-readme.txt" "color-theme-readme.txt" "auto-indent-mode-readme.txt" "clippy-readme.txt" "mmm-mode-readme.txt" "nodejs-repl-readme.txt" "password-vault-readme.txt" "splitter-readme.txt" "gitconfig-mode-readme.txt" "dark-souls-readme.txt" "escreen-readme.txt" "pkg-info-20130927.1230/" "capture-readme.txt" "screenshot-readme.txt" "sass-mode-readme.txt~" "finalize-readme.txt" "flex-autopair-20120809.2118/" "sequential-command-readme.txt" "html-script-src-readme.txt" "indent-guide-readme.txt" "php-mode-20130609.1603/" "nav-readme.txt" "ascii-readme.txt" "alert-readme.txt~" "figlet-readme.txt" "auto-complete-20130724.1750/" "geben-readme.txt" "magit-readme.txt~" "sublime-themes-readme.txt" "prosjekt-readme.txt" "emacsql-readme.txt" "autofit-frame-readme.txt" "yasnippet-readme.txt~" "fuzzy-format-readme.txt~" "async-readme.txt" "fringe-helper-readme.txt" "twilight-anti-bright-theme-readme.txt" "win-switch-readme.txt" "git-gutter-fringe-readme.txt" "butler-readme.txt" "face-remap+-readme.txt" "windresize-readme.txt~" "idomenu-readme.txt~" "ctags-update-readme.txt" "fastnav-readme.txt" "edit-server-readme.txt" "fastnav-readme.txt~" "yagist-readme.txt" "twilight-bright-theme-readme.txt~" "kv-readme.txt" "auto-yasnippet-readme.txt" "calfw-gcal-readme.txt" "git-gutter+-readme.txt~" "drupal-mode-readme.txt" "orgbox-readme.txt" "shut-up-readme.txt~" "bdo-readme.txt" "weather-metno-readme.txt" "hlinum-readme.txt" "gandalf-theme-20130809.1147/" "ez-query-replace-readme.txt" "visible-mark-readme.txt" "ctable-readme.txt" "pastels-on-dark-theme-readme.txt~" "scratch-palette-readme.txt" "open-junk-file-readme.txt" "web-readme.txt" "autopair-20121123.1829/" "adaptive-wrap-readme.txt~" "fakir-20140219.1510/" "auctex-readme.txt" "ctags-update-20121219.1035/" "smooth-scroll-readme.txt" "web-mode-20140620.1426/" "ample-theme-20130806.1130/" "subatomic-theme-20130226.2229/" "jumblr-readme.txt" "project-persist-readme.txt" "php-auto-yasnippets-readme.txt~" "hungry-delete-readme.txt" "visible-mark-readme.txt~" "window-layout-readme.txt" "edbi-readme.txt" "swoop-readme.txt" "es-lib-readme.txt" "yasnippet-0.8.0/" "mmm-mode-20130606.7/" "clojure-cheatsheet-20131213.9/" "eyebrowse-readme.txt" "bf-mode-readme.txt" "zenburn-theme-20130716.1457/" "smart-newline-readme.txt" "mmm-mako-readme.txt" "lusty-explorer-readme.txt" "git-gutter-fringe-readme.txt~" "gitignore-mode-readme.txt" "dircmp-readme.txt" "emr-readme.txt" "volatile-highlights-readme.txt" "vlf-readme.txt" "mag-menu-readme.txt" "ample-theme-readme.txt" "adaptive-wrap-readme.txt" "auto-complete-clang-async-readme.txt" "dropdown-list-readme.txt" "sublimity-readme.txt" "highlight-tail-readme.txt" "git-commit-mode-20140110.833/" "underwater-theme-readme.txt~" "haml-mode-20130130.1622/" "automargin-readme.txt" "dash-20130617.739/" "loop-readme.txt" "dired-details-readme.txt~" "screenshot-readme.txt~" "project-local-variables-readme.txt" "dired-details-20130328.1119/" "jump-to-line-readme.txt" "git-commit-mode-readme.txt" "tabbar-readme.txt" "twilight-theme-20120412.803/" "fuzzy-readme.txt~" "org-jekyll-readme.txt" "minimap-readme.txt" "tea-time-readme.txt" "sudo-ext-readme.txt" "abc-mode-readme.txt" "monokai-theme-20130815.2145/" "circe-readme.txt" "flycheck-readme.txt" "rainbow-delimiters-readme.txt" "sublime-themes-readme.txt~" "flex-isearch-readme.txt" "tagedit-readme.txt" "monokai-theme-readme.txt" "heroku-theme-readme.txt" "auto-complete-nxml-readme.txt" "spacegray-theme-readme.txt" "killer-readme.txt" "ido-gnus-readme.txt" "fuzzy-match-readme.txt~" "watch-buffer-readme.txt" "lusty-explorer-readme.txt~" "svg-clock-readme.txt" "icicles-readme.txt" "furl-readme.txt" "color-theme-sanityinc-solarized-readme.txt" "tabbar-readme.txt~" "soothe-theme-20130805.1700/" "scss-mode-20130105.1411/" "ioccur-readme.txt" "wacspace-readme.txt~" "dired-toggle-readme.txt" "highlight-symbol-readme.txt" "creole-20140325.1159/" "ssh-readme.txt" "skype-readme.txt" "magit-topgit-readme.txt" "anti-zenburn-theme-readme.txt" "skewer-mode-readme.txt" "dired-open-readme.txt" "dropbox-readme.txt" "fuzzy-readme.txt" "whitespace-cleanup-mode-readme.txt" "dired-details-readme.txt" "twilight-anti-bright-theme-20120713.1116/" "powerline-readme.txt" "shut-up-readme.txt" "mmm-mode-readme.txt~" "web-server-readme.txt" "alert-readme.txt" "peek-mode-readme.txt" "scratch-ext-readme.txt" "textmate-readme.txt" "save-visited-files-readme.txt" "keychain-environment-readme.txt" "orglue-readme.txt" "keydef-readme.txt" "pophint-readme.txt" "rainbow-mode-readme.txt" "projectile-readme.txt~" "clojure-cheatsheet-readme.txt" "twilight-bright-theme-readme.txt" "flycheck-tip-20160908.1953/" "org-gcal-readme.txt" "emacs-setup-readme.txt" "drupal-mode-readme.txt~" "keymap-utils-readme.txt" "scss-mode-readme.txt" "git-gutter-readme.txt" "hippie-exp-ext-readme.txt" "octomacs-readme.txt" "json-mode-readme.txt" "esh-buf-stack-readme.txt" "jump-char-readme.txt" "elnode-20140203.1506/" "dired-sort-menu-readme.txt" "ido-ubiquitous-readme.txt" "gnupg/" "idomenu-readme.txt" "replace+-readme.txt" "magit-stgit-readme.txt" "trident-mode-readme.txt" "virtualenv-readme.txt" "color-theme-sanityinc-solarized-readme.txt~" "cider-20131221.1231/" "wacspace-readme.txt" "bufshow-readme.txt" "zencoding-mode-readme.txt" "vector-utils-readme.txt" "helm-20131225.2342/" "smartscan-readme.txt" "easy-kill-readme.txt" "phi-rectangle-readme.txt" "undo-tree-0.6.3/" "flycheck-0.23/" "smooth-scrolling-readme.txt~" "auto-complete-readme.txt~" "weechat-readme.txt" "drag-stuff-readme.txt" "php-mode-readme.txt~" "facemenu+-readme.txt" "git-messenger-readme.txt" "websocket-readme.txt" "hippie-namespace-readme.txt" "magit-20130724.1937/" "starter-kit-js-readme.txt" "kill-ring-search-readme.txt" "minimap-readme.txt~" "mark-tools-readme.txt" "show-css-readme.txt" "occur-x-readme.txt" "direx-readme.txt" "find-things-fast-readme.txt" "clojure-cheatsheet-readme.txt~" "flycheck-20161012.433/" "haml-mode-readme.txt" "awk-it-readme.txt" "emms-readme.txt" "vagrant-readme.txt" "f90-interface-browser-readme.txt" "color-theme-sanityinc-tomorrow-readme.txt~" "elnode-readme.txt" "all-ext-readme.txt" "spotify-readme.txt" "popup-20130708.2245/" "clj-refactor-readme.txt" "bug-reference-github-readme.txt" "ctags-update-readme.txt~" "geben-20160817.1834/" "psgml-1.4.1/" "color-theme-sanityinc-tomorrow-20130726.2201/" "autopair-readme.txt~" "highlight-symbol-readme.txt~" "path-headerline-mode-readme.txt" "tronesque-theme-readme.txt" "scratch-pop-readme.txt~" "main-line-readme.txt" "faces+-readme.txt" "db-20130125.1029/" "on-screen-readme.txt" "rainbow-mode-0.8/" "smart-compile-readme.txt" "scratch-log-readme.txt" "mew-readme.txt" "project-explorer-readme.txt" "gedit-mode-readme.txt" "textmate-readme.txt~" "muse-readme.txt" "clojure-mode-readme.txt" "haml-mode-readme.txt~" "projectile-readme.txt" "gandalf-theme-readme.txt~" "multi-web-mode-20130824.54/" "flex-autopair-readme.txt~" "macro-math-readme.txt" "zenburn-theme-readme.txt" "stripe-buffer-readme.txt" "windresize-readme.txt" "pastels-on-dark-theme-20120304.1222/" "highlight-parentheses-readme.txt" "clojure-mode-20131222.444/" "web-20140208.559/" "cucumber-goto-step-readme.txt" "ido-sort-mtime-readme.txt" "php-boris-readme.txt" "color-theme-readme.txt~" "flycheck-tip-readme.txt" "inf-php-readme.txt" "gitty-readme.txt" "molokai-theme-20120503.1929/" "ac-dabbrev-20130906.518/" "git-gutter-readme.txt~" "undo-tree-readme.txt" "powerline-readme.txt~" "sass-mode-20101019.30/" "json-snatcher-readme.txt" "smooth-scrolling-20130602.1609/" "nav-readme.txt~" "project-persist-readme.txt~" "noflet-20140202.1451/" "flash-region-readme.txt" "color-theme-sanityinc-solarized-20130716.2117/" "discover-readme.txt" "toxi-theme-20130418.2039/" "http-post-simple-readme.txt" "reverse-theme-readme.txt" "twilight-anti-bright-theme-readme.txt~" "twilight-bright-theme-20130605.943/" "ido-load-library-readme.txt" "dired-details+-readme.txt" "flex-autopair-readme.txt" "calfw-readme.txt" "notmuch-labeler-readme.txt" "github-browse-file-readme.txt" "ido-vertical-mode-readme.txt" "iedit-readme.txt" "brainfuck-mode-readme.txt" "let-alist-1.0.4/" "git-gutter+-readme.txt" "smart-operator-readme.txt" "archives/" "minimap-1.0/" "js-comint-readme.txt" "elscreen-readme.txt" "scpaste-readme.txt" "bufshow-readme.txt~" "fancy-narrow-readme.txt" "auto-complete-readme.txt" "mark-multiple-readme.txt" "http-twiddle-readme.txt" "seq-2.16.signed" "windresize-0.1/" "monokai-theme-readme.txt~" "enotify-readme.txt" "dired-rainbow-readme.txt" "tangotango-theme-20130715.1126/" "buffer-utils-readme.txt" "prodigy-readme.txt" "yasnippet-readme.txt" "fuzzy-format-readme.txt" "yascroll-readme.txt" "php-auto-yasnippets-readme.txt" "elscreen-readme.txt~" "color-theme-20080305.834/" "git-gutter-fringe+-readme.txt~" "scratch-pop-readme.txt" "spaces-readme.txt" "iedit-readme.txt~" "kite-readme.txt" "buffer-move-readme.txt" "sublimity-readme.txt~" "fuzzy-match-readme.txt" "sudden-death-readme.txt" "multi-web-mode-readme.txt~" "peg-readme.txt" "auto-install-readme.txt" "shell-history-readme.txt" "clues-theme-readme.txt" "hippie-expand-slime-readme.txt" "sr-speedbar-readme.txt" "back-button-readme.txt" "color-theme-solarized-20130307.1350/" "all-readme.txt" "tern-auto-complete-readme.txt" "git-rebase-mode-readme.txt" "ample-theme-readme.txt~" "wakatime-mode-readme.txt" "zenburn-theme-readme.txt~" "cloud-to-butt-erc-readme.txt" "gandalf-theme-readme.txt" "underwater-theme-readme.txt" "auto-dim-other-buffers-20130429.2026/" "clojure-mode-readme.txt~" "git-gutter-fringe+-readme.txt" "image-dired+-readme.txt" "starter-kit-eshell-readme.txt" "../" "./")
+
+ ("/home/ethan/.emacs.d/elpa/flycheck-tip-20160908.1953/" (22531 50861 367478 65000) "error-tip.el" "flycheck-tip-autoloads.el~" "error-tip.elc" "flycheck-tip-pkg.el" "flycheck-tip-autoloads.el" "flymake-tip.el" "flycheck-tip.el" "./" "eclim-tip.el" "../" "flycheck-tip.elc" "flymake-tip.elc")
+
+ ("/home/ethan/.emacs.d/geben/" (22531 38480 928938 623000) "47090/" ".storage" "./" "../")
+
+ ("/home/ethan/.emacs.d/geben/47090/" (22531 38480 928938 623000) "./" "../" "var/")
+
+ ("/home/ethan/.emacs.d/geben/47090/var/" (22531 38480 928938 623000) "www/" "./" "../")
+
+ ("/home/ethan/.emacs.d/geben/47090/var/www/" (22531 38480 928938 623000) "docroot/" "./" "../")
+
+ ("/home/ethan/.emacs.d/geben/47090/var/www/docroot/" (22531 38480 948938 639000) "./" "../" "index.php")
+
+ ("/home/ethan/.emacs.d/geben/44312/" (22531 38165 792696 884000) "./" "../" "var/")
+
+ ("/home/ethan/.emacs.d/geben/44312/var/" (22531 38165 792696 884000) "www/" "./" "../")
+
+ ("/home/ethan/.emacs.d/geben/44312/var/www/" (22531 38165 792696 884000) "docroot/" "./" "../")
+
+ ("/home/ethan/.emacs.d/geben/44312/var/www/docroot/" (22531 38165 820696 906000) "./" "../" "index.php")
+
+ ("/home/ethan/.emacs.d/geben/41672/var/www/docroot/" (22531 34836 684067 305000) "./" "../" "index.php")
+
+ ("/home/ethan/.homesick/repos/dotdaven/home/" (22530 37242 528590 239000) ".profile" "./" ".bashrc" ".bash_aliases" "../" ".gitconfig" ".drushrc.php" ".gitignore_global")
+
+ ("/home/ethan/workspace/gn2/docroot/sites/all/modules/custom/" (22529 32624 333812 202000) "gn2_sms_gateway/" "userpoints_og/" "gn2_manager_access/" "gn2_captcha/" "gn2_tech_support/" "gn2_adobe_connect/" "gn2_taxonomy/" "gn2_courses/" "gn2_user_admin/" "things_recently_viewed/" "gn2_base_strongarm/" "gn2_invitations/" "gn2_search/" "gn2_report_user_changes/" "gn2_simple_access/" "gn_translate/" "gn2_metrics/" "gn2_reg/" "gn2_unblock/" "gn2_migrate_demo/" "gn2_admin_dashboard/" "gn2_user_delete/" "gn2_support_desk/" "gn2_themeparts_swap/" "gn2_about/" "gn2_notifications/" "gn2_reports/" "gn2_ezproxy/" "./" "gn2_cdn_bypass/" "gn2_heartbreak/" "gn2_migrate/" "og_subscriptions/" "entityform_export/" "gn2_og/" "../" "gn2_file_download/" "gn2_roles_perms/" "gn2_solr_search/" "gn2_redirects/" "gn2_coi/" "gn2_sessions/" "gn2_context/" "gn2_group_admin/" "gn2_privatemsg/" "gn2_cac/" "views_smartdate/" "gn2_feedback/" "gn2_base_config/" "gn2_database/")
+
+ ("/home/ethan/workspace/gn2/docroot/simplesaml/" (22473 65203 960314 395000) "logout.php" "module.php" "authmemcookie.php" "./" "errorreport.php" "_include.php" "../" "admin/" "shib13/" "saml2/" "resources/" "index.php")
+
+ ("/home/ethan/workspace/gn2/docroot/" (22478 59316 198680 9000) "scripts/" "web.config" "misc/" "INSTALL.pgsql.txt" ".gitignore" "PATCHES.txt" "includes/" "update.php" "MAINTAINERS.txt" "xmlrpc.php" "simplesaml/" "README.txt" "CHANGELOG.txt" "UPGRADE.txt" "themes/" "profiles/" "cron.php" "./" ".htaccess" "install.php" "sites/" "LICENSE.txt" "INSTALL.sqlite.txt" "modules/" "../" "INSTALL.txt" "core-mime-fix-rd-2044.patch" "COPYRIGHT.txt" "INSTALL.mysql.txt" "authorize.php" "robots.txt" "index.php")
+
+ ("/home/ethan/workspace/gn2/docroot/sites/all/modules/custom/gn2_sessions/gn2_sessions_fc/" (22518 22023 17348 267000) "includes/" "gn2_sessions_fc.info" "gn2_sessions_fc.js" "./" "gn2_sessions_fc_refresh.js" "../" "gn2_sessions_fc.module" "gn2_sessions_fc.helpers.inc")
+
+ ("/home/ethan/workspace/ms/js/" (22514 42372 931012 528000) "./" "../" "app.js")
+
+ ("/home/ethan/workspace/agile-ms/docroot/css/" (22526 12686 880270 913000) "app.scss" "components/" "_uswds-vars.scss" "./" "layout/" "../" "_uswds.scss" "angular/" "_bootstrap-tooltip.scss")
+
+ ("/home/ethan/workspace/agile-ms/docroot/" (22526 29353 946808 585000) "css/" "public/" "bower_components/" "_index.php" "api.json" "bower.json" "node_modules/" "style-index.html" "./" ".htaccess" "package.json" "index.html" "../" "views/" "js/" "gulpfile.js" "index.php")
+
+ ("/home/ethan/workspace/agile-ms/" (22516 18327 469546 901000) ".idea/" ".gitignore" "docker-compose.yml" "bin/" "Dockerfile" "docroot/" "./" "README.md" ".git/" "../" ".docker/")
+
+ ("/home/ethan/workspace/agile-ms/docroot/js/" (22514 43524 587008 342000) "./" "../" "app.js" "app.js~")
+
+ ("/home/ethan/workspace/" (22514 42751 629668 242000) "gn2/" "bbsc/" "agile-ms/" "./" "bbs/" "untitled/" "../" "ms/" "pnm/")
+
+ ("/home/ethan/workspace/ms/" (22514 42425 103380 80000) "css/" "public/" "bower_components/" "bower.json" "node_modules/" "./" "package.json" "index.html" "../" "js/" "gulpfile.js")
+
+ ("/home/ethan/workspace/ms/css/" (22514 42986 583302 315000) "app.scss" "./" "../")
+
+ ("/home/ethan/workspace/ms/public/css/" (22513 33004 4469 542000) "./" "app.css" "../")
+
+ ("/home/ethan/workspace/ms/public/" (22513 33004 469 536000) "css/" "./" "../" "fonts/" "js/")
+
+ ("/home/ethan/workspace/bbs/" (22472 41097 354295 520000) ".bowline/" "logs/" ".idea/" ".gitignore" ".civicactions.sql.gz" "docker-compose.yml" "sandbox.md" "vendor/" "composer.json" ".master.sql.gz" "bin/" "drupal/" ".composer/" "docroot/" "./" "patches/" "composer.lock" ".drush/" "README.md" ".git/" "../" "files-private/" "bowline-install.sh" "LICENSE.md" ".docker/" "lib/" "readme.md")
+
+ ("/home/ethan/workspace/bbs/docroot/sites/all/modules/custom/ca_events/" (22458 5080 196995 533000) "ca_events.js" "ca_events.module" "./" "../" "ca_events.info")
+
+ ("/home/ethan/workspace/pnm/" (22484 9380 40316 265000) ".bowline/" "logs/" ".pre-import.sql.gz" ".idea/" ".gitignore" ".snapshot.sql.gz" "docker-compose.yml" ".master.sql" "node_modules/" "sandbox.md" "vendor/" "composer.json" ".master.sql.gz" "bin/" ".composer/" "docroot/" "./" "composer.lock" ".drush/" ".eslintrc" ".git/" "../" "files-private/" "bowline-install.sh" "LICENSE.md" ".docker/" "lib/" "readme.md")
+
+ ("/home/ethan/.homesick/" (22441 11860 287580 689000) "./" "repos/" "../")
+
+ ("/home/ethan/.homesick/repos/" (22441 12249 90350 302000) "./" "../" "dotdaven/" "homeshick/")
+
+ ("/home/ethan/.homesick/repos/dotdaven/" (22441 12250 90357 274000) "home/" "./" "README.md" ".git/" "../" "bash_inc/")
+
+ ("/home/ethan/workspace/new_pnm/" (22460 42191 948769 73000) ".bowline/" "logs/" ".pre-import.sql.gz" ".idea/" ".gitignore" ".snapshot.sql.gz" "docker-compose.yml" "sandbox.md" "vendor/" "composer.json" "bin/" ".composer/" "docroot/" "./" "composer.lock" ".drush/" ".git/" "../" "files-private/" "bowline-install.sh" "LICENSE.md" ".docker/" "lib/" "readme.md")
+
+ ("/home/ethan/workspace/new_pnm/.bowline/" (22460 41726 423762 506000) ".gitignore" "config.example" "./" "../" "docker-compose.proxyconf.yml" ".#docker-compose.proxyconf.yml")
+
+ ("/home/ethan/workspace/new_pnm/.docker/etc/" (22448 64841 82231 161000) "my.cnf" "./" "../" "settings.docker.php" "bashrc")
+
+ ("/home/ethan/workspace/new_pnm/.docker/" (22448 64841 82231 161000) "web-php/" "./" "devtools/" "selenium/" "../" "etc/")
+
+ ("/home/ethan/workspace/gn2/docroot/sites/all/modules/custom/gn2_sessions/" (22439 22441 679680 498000) "gn2_sessions_fc/" "gn2_session_edit.js" "README.txt" "gn2_sessions.module" "./" "../" "gn2_sessions.js" "gn2_sessions.info")
+
+ ("/home/ethan/workspace/gn2/docroot/sites/all/modules/" (22439 22441 687680 507000) "local/" "README.txt" "./" "contrib/" "../" "custom/")
+
+ ("/home/ethan/workspace/gn2/docroot/sites/all/" (22439 22441 715680 538000) "translations/" "libraries/" "themes/" "./" "modules/" "../")
+
+ ("/home/ethan/workspace/gn2/docroot/sites/" (22439 22441 715680 538000) "README.txt" "default/" "./" "all/" "../" "example.sites.php")
+
+ ("/home/ethan/workspace/bbs/docroot/sites/all/modules/custom/" (22450 2651 336547 748000) "kef_search_api_feature/" "kef_password_policy/" "pnnl_drupal_ui_feature/" "field_base_container/" "kef_default_roles/" "kef_basic_content_feature/" "kef_security_feature/" "ca_events/" "pnnl_drupal_feature/" "pnnl_facet_reset_block/" "./" "pnnl_paragraphs/" "pnnl_dirty_forms/" "kef_seo_feature/" "../" "page_content_type/" "kef_ckeditor/" "pnnl_login_disclaimer/" "pnnl_user_password_autocomplete/" "pnnl_duplicate_content/" "pnnl_search_api_servers/" "kef_view_manager/" "pnnl_paragraphs_2_0/" "pnnl_google_analytics/")
+
+ ("/home/ethan/workspace/bbs/docroot/sites/all/modules/" (22449 2247 556048 691000) "development/" "README.txt" "./" "project/" "contrib/" "../" "custom/")
+
+ ("/home/ethan/workspace/bbs/docroot/sites/all/" (22449 2246 528046 423000) "libraries/" "README.txt" "themes/" "./" "modules/" "../")
+
+ ("/home/ethan/workspace/bbs/docroot/sites/" (22449 2248 212050 138000) "default/" "./" "all/" "../" "example.sites.php")
+
+ ("/home/ethan/workspace/bbs/docroot/" (22450 4505 461464 556000) "scripts/" "web.config" "misc/" "INSTALL.pgsql.txt" ".gitignore" "includes/" ".editorconfig" "update.php" "MAINTAINERS.txt" "xmlrpc.php" "README.txt" "CHANGELOG.txt" "UPGRADE.txt" "themes/" "profiles/" "cron.php" "./" ".htaccess" "install.php" "sites/" "LICENSE.txt" "INSTALL.sqlite.txt" "modules/" "../" "INSTALL.txt" "COPYRIGHT.txt" "INSTALL.mysql.txt" "authorize.php" "robots.txt" "index.php")
+
+ ("/home/" (22438 39081 351479 269000) "./" "ethan/" "../")
+
+ ("/home/ethan/workspace/new_pnm/docroot/" (22448 64811 70181 629000) "scripts/" "web.config" "misc/" "INSTALL.pgsql.txt" ".gitignore" "includes/" ".editorconfig" ".drush-lock-update" "update.php" "MAINTAINERS.txt" "xmlrpc.php" "README.txt" "CHANGELOG.txt" "UPGRADE.txt" "themes/" "profiles/" "cron.php" "./" ".htaccess" "install.php" "sites/" "LICENSE.txt" "INSTALL.sqlite.txt" ".git/" "modules/" "../" "INSTALL.txt" "COPYRIGHT.txt" "INSTALL.mysql.txt" "authorize.php" "robots.txt" "index.php")
+
+ ("/home/ethan/workspace/new_pnm/docroot/sites/" (22448 64811 70181 629000) "README.txt" "default/" "./" "all/" "../" "example.sites.php")
+
+ ("/home/ethan/workspace/new_pnm/docroot/sites/all/" (22448 64811 46181 588000) "libraries/" "themes/" "./" "modules/" "../")
+
+ ("/home/ethan/workspace/new_pnm/docroot/sites/all/modules/" (22448 64811 38181 575000) "entity/" "file_entity/" "README.txt" "admin_menu/" "./" "ctools/" "job_scheduler/" "../" "media/" "jquery_update/" "devel/" "features/" "views/" "custom/")
+
+ ("/home/ethan/workspace/new_pnm/docroot/sites/all/modules/custom/" (22448 64811 26181 556000) "./" "../" "pizza_custom/")
+
+ ("/home/ethan/workspace/new_pnm/docroot/sites/all/modules/custom/pizza_custom/" (22455 23191 552260 556000) "pizza_custom.module" "pizza_custom.info" "pizza_custom.js" "./" "../" "pizza_custom.helpers.inc")
+
+ ("/Users/ethanteague/" (21562 62187 0 0) "workspace/" "Public/" "powerline-shell.py" "powerline-shell/" "Pictures/" "Music/" "Movies/" "Library/" "Downloads/" "Documents/" "Desktop/" "Applications/" ".zshrc~" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-Ethan’s MacBook Pro-5.0.2" ".zcompdump-Ethan’s MacBook Pro-4.3.11" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".sh_history" ".oh-my-zsh/" ".mysql_history" ".gitignore~" ".gitignore" ".gitconfig" ".git/" ".gem/" ".emacs~" ".emacs.d/" ".emacs-places" ".emacs" ".eclipse/" ".dvdcss/" ".DS_Store" ".drush/" ".cups/" ".config/" ".composer/" ".CFUserTextEncoding" ".cache/" ".bashrc" ".bash_profile" ".bash_history" "#.bash_profile#" "../" "./")
+
+ ("/Users/ethanteague/workspace/" (21561 13757 0 0) "lex/" "lacityview/" "lacity_theme/" "lacity/" "la_themes/" "la/" "globalnet/" "files/" ".DS_Store" "../" "./")
+
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/libraries/" (21561 25663 0 0) "slicknav/" "simpleWeather/" "simplepie/" "quail/" "plupload/" "meanMenu/" "jsonpath/" "json2/" "jquery.cycle/" "google-api-php-client/" "flexslider/" "colorbox/" "ckeditor/" ".DS_Store" "../" "./")
+
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/templates/" (21561 13602 0 0) "README.txt" "page.tpl.php" "html.tpl.php" "../" "./")
+
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/" (21561 13602 0 0) "theme-settings.php" "templates/" "template.php" "screenshot.png" "sass-extensions/" "sass/" "README.txt" "logo.png" "lacity.info" "js/" "images-source/" "images/" "favicon.ico" "css/" "config.rb" ".sass-cache/" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/contrib/" (21561 25751 0 0) "xmlsitemap/" "wysiwyg/" "webform/" "views_ticker/" "views_slideshow/" "views_field_view/" "views_cache_bully/" "views/" "twitter/" "token/" "term_reference_filter_by_views/" "taxonomy_manager/" "strongarm/" "site_map/" "shield/" "rules/" "responsive_menus/" "resource_conflict/" "redirect/" "plupload/" "pathauto/" "oauth/" "multiform/" "metatag/" "menu_block/" "menu_attributes/" "media_youtube/" "media/" "linkit/" "link/" "libraries/" "jquery_update/" "job_scheduler/" "jcarousel/" "gss/" "getdirections/" "geophp/" "geofield/" "geocoder/" "flexslider/" "file_token_link/" "file_entity/" "field_group/" "field_collection_feeds/" "field_collection/" "feeds_tamper/" "feeds_ex/" "feeds/" "features/" "entityreference_prepopulate/" "entityreference/" "entitycache/" "entity/" "email/" "diff/" "date/" "ctools/" "colorbox/" "ckeditor_link/" "ckeditor/" "calendar/" "block_class/" "block_access/" "backup_migrate/" "advanced_link/" "admin_menu/" "addressfield/" "acsf/" "acquia_connector/" "accessibility/" ".DS_Store" "../" "./")
+
+ ("/Users/ethanteague/workspace/lacity/docroot/" (21561 25751 0 0) "xmlrpc.php" "web.config" "UPGRADE.txt" "update.php" "themes/" "sites/" "scripts/" "robots.txt" "README.txt" "profiles/" "modules/" "mnt/" "misc/" "MAINTAINERS.txt" "LICENSE.txt" "INSTALL.txt" "INSTALL.sqlite.txt" "install.php" "INSTALL.pgsql.txt" "INSTALL.mysql.txt" "index.php" "includes/" "cron.php" "COPYRIGHT.txt" "CHANGELOG.txt" "authorize.php" ".htaccess" ".gitignore" ".DS_Store" "../" "./")
+
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/custom/la_lacity_customizations/" (21561 25751 0 0) "la_lacity_customizations.module" "la_lacity_customizations.info" "../" "./")
+
+ ("/Users/ethanteague/workspace/lacityview/" (21561 10985 0 0) "update_settings.php" "tools/" "system-tests/" "seed_cache" "releases/" "library/" "install_site.php" "hooks/" "gsite-scrub.sql" "gsite-scrub-local-dev.sql" "factory-hooks/" "drush-ms-wrapper.rb" "docroot/" "build_info" "__autorun.php" ".gitmodules" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/custom/" (21561 25663 0 0) "la_lacityview_programs/" "la_lacity_weather/" "la_lacity_twitter/" "la_lacity_search/" "la_lacity_feeds/" "la_lacity_customizations/" "la_lacity_blocks/" "../" "./")
+
+ ("/Users/ethanteague/workspace/lacity/" (21561 25751 0 0) "update_settings.php" "tools/" "system-tests/" "seed_cache" "releases/" "library/" "install_site.php" "hooks/" "gsite-scrub.sql" "gsite-scrub-local-dev.sql" "factory-hooks/" "drush-ms-wrapper.rb" "docroot/" "build_info" "__autorun.php" ".gitmodules" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/ethanteague/workspace/lacity_theme/templates/" (21561 13757 0 0) "views-view-field--programs-a-z--nid.tpl.php" "README.txt" "page.tpl.php" "html.tpl.php" "../" "./")
+
+ ("/Users/ethanteague/workspace/lacity_theme/" (21561 13718 0 0) "theme-settings.php" "templates/" "template.php" "screenshot.png" "sass-extensions/" "sass/" "README.txt" "logo.png" "lacityview.info" "js/" "images-source/" "images/" "favicon.ico" "css/" "config.rb" ".sass-cache/" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/ethanteague/workspace/lacity_theme/js/" (21560 36910 0 0) "script.js" "README.txt" "../" "./")
+
+ ("/Users/ethanteague/workspace/lacity_theme/sass/components/" (21561 10719 0 0) "_weather.scss" "_view_services_and_info.scss" "_tweets_socials_footer.scss" "_slideshow_components.scss" "_slideshow.scss" "_sidebar_home.scss" "_pre_logo.scss" "_misc.scss" "_misc-rtl.scss" "_menu_sidebar.scss" "_main_bottom.scss" "_highlights_page.scss" "_highlights_home_features.scss" "_header_socials.scss" "_google_search.scss~" "_google_search.scss" "_directions.scss" "_copyright.scss" "../" "./")
+
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/zen/templates/" (21561 13229 0 0) "user-picture.tpl.php" "region.tpl.php" "region--sidebar.tpl.php" "region--no-wrapper.tpl.php" "region--footer.tpl.php" "panels-pane.tpl.php" "pane-navigation.tpl.php" "pane-messages.tpl.php" "pane-header.tpl.php" "page.tpl.php" "node.tpl.php" "maintenance-page.tpl.php" "html.tpl.php" "comment.tpl.php" "comment-wrapper.tpl.php" "block.tpl.php" "block--no-wrapper.tpl.php" "../" "./")
+
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/templates/" (21561 13482 0 0) "README.txt" "page.tpl.php" "html.tpl.php" "../" "./")
+
+ ("/Users/ethanteague/workspace/lacity_theme/sass/placeholders/" (21560 20048 0 0) "_placeholders_slickstyle.scss" "_placeholders_sidebar.scss" "_placeholders_maximenu.scss" "_placeholders_header.scss" "../" "./")
+
+ ("/Users/ethanteague/workspace/lacity_theme/sass/theme/" (21560 22684 0 0) "_sidebar.scss" "_header.scss" "_footer.scss" "_body_home.scss" "../" "./")
+
+ ("/Users/ethanteague/workspace/lacity_theme/sass/layouts/" (21560 21487 0 0) "_responsive.scss" "_responsive-rtl.scss" "_fixed.scss" "_fixed-rtl.scss" "../" "./")
+
+ ("/Users/ethanteague/workspace/lacity_theme/sass/" (21560 19993 0 0) "theme/" "styles.scss" "styles-rtl.scss" "README.txt" "placeholders/" "layouts/" "components/" "_print.scss" "_normalize.scss" "_normalize-rtl.scss" "_mixins.scss" "_init.scss" "../" "./")
+
+ ("/Users/ethanteague/Desktop/" (21559 1708 0 0) "la_demo" "ita_logo.png" "ita_logo.jpg" "images/" "ch35_logo2.png" "ch35_logo2.jpg" "ch35_logo.png" ".DS_Store" "../" "./")
+
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/modules/custom/la_lacity_weather/" (21550 47766 0 0) "la_lacity_weather.module" "la_lacity_weather.js" "la_lacity_weather.info" "../" "./")
+
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/sass/components/" (21550 49949 0 0) "_view_services_and_info.scss" "_slideshow.scss" "_sidebar_home.scss" "_sidebar.scss" "_pre_logo.scss" "_news_items.scss" "_misc.scss" "_misc-rtl.scss" "_menu_sidebar.scss" "_jcarousel.scss" "_header_reset.scss" "_footer.scss" "_body_home.scss" "../" "./")
+
+ ("/Users/ethanteague/workspace/lacity/docroot/sites/all/modules/" (21547 22677 0 0) "taxonomy_menu/" "taxonomy_field_menu/" "README.txt" "devel/" ".DS_Store" "../" "./")
+
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/zen/templates/" (21550 47097 0 0) "user-picture.tpl.php" "region.tpl.php" "region--sidebar.tpl.php" "region--no-wrapper.tpl.php" "region--footer.tpl.php" "panels-pane.tpl.php" "pane-navigation.tpl.php" "pane-messages.tpl.php" "pane-header.tpl.php" "page.tpl.php" "node.tpl.php" "maintenance-page.tpl.php" "html.tpl.php" "comment.tpl.php" "comment-wrapper.tpl.php" "block.tpl.php" "block--no-wrapper.tpl.php" "../" "./")
+
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/js/" (21550 49412 0 0) "script.js" "README.txt" ".DS_Store" "../" "./")
+
+ ("/Users/ethanteague/workspace/lacity/docroot/profiles/la/themes/lacity/sass/placeholders/" (21550 50618 0 0) "_placeholders_slickstyle.scss" "_placeholders_sidebar.scss" "_placeholders_maximenu.scss" "_placeholders_header.scss" "../" "./")
+
+ ("/Users/ethanteague/workspace/la/docroot/profiles/la/themes/ladot/js/" (21549 57469 0 0) "script.js" "README.txt" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
