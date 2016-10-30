@@ -109,10 +109,10 @@
 		  (interactive)
 		  (dired "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:dev")))
 
-;;(global-set-key (kbd "M-3")
-;;		(lambda ()
-;;		  (interactive)
-;;		  (dired "/ssh:floridab@50.22.11.59:public_html")))
+(global-set-key (kbd "M-3")
+		(lambda ()
+		  (interactive)
+		  (dired "/ssh:floridab@50.22.11.59:public_html")))
 
 (add-to-list 'load-path "~/.emacs.d/vendor/emacs-powerline")
 (require 'powerline)
@@ -149,8 +149,8 @@
  '(flycheck-checkers
    (quote
     (ada-gnat asciidoc c/c++-clang c/c++-gcc c/c++-cppcheck cfengine chef-foodcritic coffee coffee-coffeelint coq css-csslint d-dmd elixir-dogma emacs-lisp emacs-lisp-checkdoc erlang eruby-erubis fortran-gfortran go-gofmt go-golint go-vet go-build go-test go-errcheck go-unconvert groovy haml handlebars haskell-stack-ghc haskell-ghc haskell-hlint html-tidy javascript-eslint javascript-jshint javascript-gjslint javascript-jscs javascript-standard json-jsonlint json-python-json less lua-luacheck lua perl perl-perlcritic php php-phpcs processing pug puppet-parser puppet-lint python-flake8 python-pylint python-pycompile r-lintr racket rpm-rpmlint markdown-mdl rst-sphinx rst ruby-rubocop ruby-rubylint ruby ruby-jruby rust-cargo rust scala scala-scalastyle scheme-chicken scss-lint sass/scss-sass-lint sass scss sh-bash sh-posix-dash sh-posix-bash sh-zsh sh-shellcheck slim slim-lint sql-sqlint tex-chktex tex-lacheck texinfo typescript-tslint verilog-verilator xml-xmlstarlet xml-xmllint yaml-jsyaml yaml-ruby)))
- '(flycheck-php-phpcs-executable nil)
- '(flycheck-phpcs-standard "Drupal")
+ '(flycheck-php-phpcs-executable "/home/ethan/.config/composer/vendor/bin/phpcs")
+ '(flycheck-phpcs-standard nil)
  '(foreground-color "#839496")
  '(fringe-mode 4 nil (fringe))
  '(gnus-default-nntp-server "")
