@@ -1,9 +1,135 @@
 ;;; -*- coding: utf-8 -*-
-(("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/dev/docroot/sites/all/themes/gn2_zen/css/"
+(("/home/ethan/workspace/gn2/docroot/sites/all/modules/custom/gn2_notifications/gn2_notifications.module" . 4345)
+ ("/home/ethan/.emacs" . 918)
+ ("/home/ethan/.emacs.d/ido.last" . 56568)
+ ("/home/ethan/.emacs.d/recentf" . 1907)
+ ("/home/ethan/workspace/gn2/docroot/sites/all/modules/contrib/views_bulk_operations/plugins/operation_types/base.class.php" . 7334)
+ ("/home/ethan/workspace/betterbuilding/docroot/sites/all/modules/custom/ca_events/ca_events.module" . 426)
+ ("/home/ethan/.emacs.d/elpa/eshell-did-you-mean-20150915.1252/eshell-did-you-mean-autoloads.el" . 432)
+ ("/home/ethan/.emacs.d/elpa/eshell-git-prompt-20160509.138/eshell-git-prompt-autoloads.el" . 610)
+ ("/home/ethan/.emacs.d/elpa/es-lib-20141111.1030/es-lib-autoloads.el" . 2565)
+ ("/home/ethan/workspace/gn2/docroot/sites/all/modules/custom/gn2_notifications/"
+  (dired-filename . "/home/ethan/workspace/gn2/docroot/sites/all/modules/custom/gn2_notifications/gn2_notifications.module"))
+ ("/home/ethan/workspace/gn2/docroot/modules/system/system.api.php" . 200111)
+ ("/home/ethan/workspace/betterbuilding/docroot/sites/all/modules/custom/ca_events/"
+  (dired-filename . "/home/ethan/workspace/betterbuilding/docroot/sites/all/modules/custom/ca_events/ca_events.module"))
+ ("/home/ethan/workspace/betterbuilding/docroot/sites/all/libraries/PHPExcel/Classes/PHPExcel/Chart.php" . 10330)
+ ("/home/ethan/workspace/betterbuilding/docroot/sites/all/modules/contrib/diff/DiffEngine.php" . 32142)
+ ("/home/ethan/.emacs.d/elpa/ample-theme-20161002.1640/ample-theme-autoloads.el" . 1352)
+ ("/home/ethan/.emacs.d/elpa/auto-complete-20161029.643/auto-complete-autoloads.el" . 1713)
+ ("/home/ethan/.emacs.d/elpa/auto-dim-other-buffers-20161004.539/auto-dim-other-buffers-autoloads.el" . 911)
+ ("/home/ethan/.emacs.d/elpa/autopair-20160304.437/autopair-autoloads.el" . 1181)
+ ("/home/ethan/.emacs.d/elpa/cider-20161016.424/cider-autoloads.el" . 10581)
+ ("/home/ethan/.emacs.d/elpa/queue-0.1.1/queue-autoloads.el" . 344)
+ ("/home/ethan/.emacs.d/elpa/spinner-1.7.1/spinner-autoloads.el" . 2421)
+ ("/home/ethan/.emacs.d/elpa/clojure-cheatsheet-20161004.2328/clojure-cheatsheet-autoloads.el" . 433)
+ ("/home/ethan/.emacs.d/elpa/clojure-mode-20161017.1134/clojure-mode-autoloads.el" . 2894)
+ ("/home/ethan/.emacs.d/elpa/color-theme-sanityinc-solarized-20160429.1903/color-theme-sanityinc-solarized-autoloads.el" . 982)
+ ("/home/ethan/.emacs.d/elpa/color-theme-sanityinc-tomorrow-20160916.1758/color-theme-sanityinc-tomorrow-autoloads.el" . 1495)
+ ("/home/ethan/.emacs.d/elpa/color-theme-solarized-20160626.743/color-theme-solarized-autoloads.el" . 1552)
+ ("/home/ethan/.emacs.d/elpa/creole-20140924.800/creole-autoloads.el" . 4143)
+ ("/home/ethan/.emacs.d/elpa/ctags-update-20150427.2014/ctags-update-autoloads.el" . 910)
+ ("/home/ethan/.emacs.d/elpa/dash-20161018.136/dash-autoloads.el" . 221)
+ ("/home/ethan/.emacs.d/elpa/db-20140421.1411/db-autoloads.el" . 218)
+ ("/home/ethan/.emacs.d/elpa/dired-details-20130824.458/dired-details-autoloads.el" . 248)
+ ("/home/ethan/.emacs.d/elpa/f-20161002.800/f-autoloads.el" . 216)
+ ("/home/ethan/.emacs.d/elpa/fakir-20140729.952/fakir-autoloads.el" . 224)
+ ("/home/ethan/.emacs.d/elpa/flycheck-20161030.316/flycheck-autoloads.el" . 8381)
+ ("/home/ethan/.emacs.d/elpa/git-gutter-20160903.852/git-gutter-autoloads.el" . 1458)
+ ("/home/ethan/.emacs.d/elpa/haml-mode-20150508.2011/haml-mode-autoloads.el" . 454)
+ ("/home/ethan/.emacs.d/elpa/helm-20161029.1047/helm-autoloads.el" . 28997)
+ ("/home/ethan/.emacs.d/elpa/helm-core-20161028.2141/helm-core-autoloads.el" . 6049)
+ ("/home/ethan/.emacs.d/elpa/magit-20161030.317/magit-autoloads.el" . 55286)
+ ("/home/ethan/.emacs.d/elpa/git-commit-20161011.1738/git-commit-autoloads.el" . 1000)
+ ("/home/ethan/.emacs.d/elpa/with-editor-20161009.917/with-editor-autoloads.el" . 265)
+ ("/home/ethan/.emacs.d/elpa/magit-popup-20161009.1506/magit-popup-autoloads.el" . 265)
+ ("/home/ethan/.emacs.d/elpa/async-20161010.2322/async-autoloads.el" . 4148)
+ ("/home/ethan/.emacs.d/elpa/minimap-1.2/minimap-autoloads.el" . 691)
+ ("/home/ethan/.emacs.d/elpa/mmm-mode-20150828.1716/mmm-mode-autoloads.el" . 991)
+ ("/home/ethan/.emacs.d/elpa/molokai-theme-20151016.845/molokai-theme-autoloads.el" . 426)
+ ("/home/ethan/.emacs.d/elpa/monokai-theme-20160902.1417/monokai-theme-autoloads.el" . 465)
+ ("/home/ethan/.emacs.d/elpa/noflet-20141102.654/noflet-autoloads.el" . 226)
+ ("/home/ethan/.emacs.d/elpa/php-mode-20160910.1801/php-mode-autoloads.el" . 1299)
+ ("/home/ethan/.emacs.d/elpa/pkg-info-20150517.443/pkg-info-autoloads.el" . 3756)
+ ("/home/ethan/.emacs.d/elpa/epl-20150517.433/epl-autoloads.el" . 218)
+ ("/home/ethan/.emacs.d/elpa/popup-20160709.729/popup-autoloads.el" . 224)
+ ("/home/ethan/.emacs.d/elpa/rainbow-mode-0.12/rainbow-mode-autoloads.el" . 483)
+ ("/home/ethan/.emacs.d/elpa/s-20160928.636/s-autoloads.el" . 216)
+ ("/home/ethan/.emacs.d/elpa/sass-mode-20161006.2326/sass-mode-autoloads.el" . 454)
+ ("/home/ethan/.emacs.d/elpa/scss-mode-20150107.1400/scss-mode-autoloads.el" . 493)
+ ("/home/ethan/.emacs.d/elpa/seq-2.19/seq-autoloads.el" . 265)
+ ("/home/ethan/.emacs.d/elpa/smooth-scrolling-20161002.1249/smooth-scrolling-autoloads.el" . 3063)
+ ("/home/ethan/.emacs.d/elpa/solarized-theme-20161009.838/solarized-theme-autoloads.el" . 932)
+ ("/home/ethan/.emacs.d/elpa/soothe-theme-20141027.741/soothe-theme-autoloads.el" . 423)
+ ("/home/ethan/.emacs.d/elpa/subatomic-theme-20160126.738/subatomic-theme-autoloads.el" . 435)
+ ("/home/ethan/.emacs.d/elpa/sublime-themes-20160111.122/sublime-themes-autoloads.el" . 4472)
+ ("/home/ethan/.emacs.d/elpa/tangotango-theme-20150702.104/tangotango-theme-autoloads.el" . 471)
+ ("/home/ethan/.emacs.d/elpa/toxi-theme-20160424.1426/toxi-theme-autoloads.el" . 414)
+ ("/home/ethan/.emacs.d/elpa/twilight-anti-bright-theme-20160622.148/twilight-anti-bright-theme-autoloads.el" . 479)
+ ("/home/ethan/.emacs.d/elpa/underwater-theme-20131117.1602/underwater-theme-autoloads.el" . 478)
+ ("/home/ethan/.emacs.d/elpa/undo-tree-20161012.701/undo-tree-autoloads.el" . 1650)
+ ("/home/ethan/.emacs.d/elpa/web-20141231.1201/web-autoloads.el" . 4523)
+ ("/home/ethan/.emacs.d/elpa/web-mode-20161023.1219/web-mode-autoloads.el" . 372)
+ ("/home/ethan/.emacs.d/elpa/yasnippet-20161026.1601/yasnippet-autoloads.el" . 1620)
+ ("/home/ethan/.emacs.d/elpa/zenburn-theme-20161018.437/zenburn-theme-autoloads.el" . 458)
+ ("/home/ethan/workspace/betterbuilding/docroot/modules/system/system.module" . 61376)
+ ("/home/ethan/.emacs.d/elpa/dumb-jump-20161015.1230/dumb-jump-autoloads.el" . 1544)
+ ("/home/ethan/workspace/betterbuilding/"
+  (dired-filename . "/home/ethan/workspace/betterbuilding/.gitignore"))
+ ("/home/ethan/workspace/betterbuilding/.gitignore" . 584)
+ ("/home/ethan/.gitignore" . 30)
+ ("/home/ethan/workspace/betterbuilding/docroot/" . 1866)
+ ("/home/ethan/.config/composer/composer.json" . 133)
+ ("/home/ethan/.config/composer/"
+  (dired-filename . "/home/ethan/.config/composer/composer.json"))
+ ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/modules/custom/gn2_support_desk/"
+  (dired-filename . "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/modules/custom/gn2_support_desk/gn2_support_desk.module"))
+ ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/modules/custom/gn2_support_desk/gn2_support_desk.module" . 2402)
+ ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/dev/"
+  (dired-filename . "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/dev/docroot"))
+ ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/modules/custom/"
+  (dired-filename . "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/modules/custom/gn2_support_desk"))
+ ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/modules/"
+  (dired-filename . "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/modules/custom"))
+ ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/"
+  (dired-filename . "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/modules"))
+ ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/"
+  (dired-filename . "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all"))
+ ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/default/"
+  (dired-filename . "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/default/.."))
+ ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/"
+  (dired-filename . "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites"))
+ ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/"
+  (dired-filename . "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot"))
+ ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/modules/custom/gn2_notifications/"
+  (dired-filename . "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/modules/custom/gn2_notifications/gn2_notifications.module"))
+ ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/modules/custom/gn2_notifications/gn2_notifications.module" . 42309)
+ ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/modules/custom/gn2_user_admin/"
+  (dired-filename . "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/modules/custom/gn2_user_admin/gn2_user_admin.module"))
+ ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/modules/user/"
+  (dired-filename . "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/modules/user/user.module"))
+ ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/modules/user/user.module" . 100678)
+ ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/modules/custom/gn2_base_strongarm/"
+  (dired-filename . "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/modules/custom/gn2_base_strongarm/gn2_base_strongarm.strongarm.inc"))
+ ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/modules/custom/gn2_base_strongarm/gn2_base_strongarm.strongarm.inc" . 1224948)
+ ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/modules/"
+  (dired-filename . "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/modules/user"))
+ ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/modules/custom/gn2_base_config/"
+  (dired-filename . "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/modules/custom/gn2_base_config/.."))
+ ("/home/ethan/workspace/betterbuilding/docroot/.gitignore" . 110)
+ ("/home/ethan/workspace/betterbuilding/docroot/sites/"
+  (dired-filename . "/home/ethan/workspace/betterbuilding/docroot/sites/.."))
+ ("/home/ethan/workspace/betterbuilding/docroot/sites/default/"
+  (dired-filename . "/home/ethan/workspace/betterbuilding/docroot/sites/default/.."))
+ ("/home/ethan/workspace/betterbuilding/docroot/sites/default/settings.php" . 21418)
+ ("/home/ethan/workspace/betterbuilding/docroot/includes/"
+  (dired-filename . "/home/ethan/workspace/betterbuilding/docroot/includes/lock.inc"))
+ ("/home/ethan/workspace/betterbuilding/docroot/includes/lock.inc" . 8660)
+ ("/home/ethan/Desktop/assets/jira creds help desk" . 8)
+ ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/dev/docroot/sites/all/modules/custom/gn2_support_desk/gn2_support_desk.module" . 4382)
+ ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/dev/docroot/sites/all/themes/gn2_zen/css/"
   (dired-filename . "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/dev/docroot/sites/all/themes/gn2_zen/css/styles.css"))
  ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/dev/docroot/sites/all/themes/gn2_zen/css/styles.css" . 746167)
- ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/dev/docroot/sites/all/modules/custom/gn2_support_desk/gn2_support_desk.module" . 4680)
- ("/home/ethan/.emacs" . 2642)
  ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/dev/docroot/sites/all/themes/gn2_zen/"
   (dired-filename . "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/dev/docroot/sites/all/themes/gn2_zen/css"))
  ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/dev/docroot/sites/all/themes/"
@@ -20,30 +146,12 @@
   (dired-filename . "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/dev/docroot/sites/all"))
  ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/dev/docroot/"
   (dired-filename . "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/dev/docroot/sites"))
- ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/dev/"
-  (dired-filename . "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/dev/docroot"))
- ("/home/ethan/Desktop/assets/jira creds help desk" . 8)
  ("/home/ethan/workspace/gn2/docroot/sites/all/modules/custom/gn2_adobe_connect/gn2_adobe_connect.module" . 241)
  ("/usr/share/lightdm/lightdm.conf.d/60-lightdm-gtk-greeter.conf" . 45)
  ("/lib/systemd/system/NetworkManager-wait-online.service" . 240)
  ("/etc/fstab" . 463)
  ("/etc/default/grub" . 1069)
  ("/etc/systemd/system.conf" . 930)
- ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/modules/custom/gn2_notifications/"
-  (dired-filename . "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/modules/custom/gn2_notifications/gn2_notifications.module"))
- ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/modules/custom/gn2_notifications/gn2_notifications.module" . 42124)
- ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/modules/custom/"
-  (dired-filename . "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/modules/custom/gn2_notifications"))
- ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/modules/"
-  (dired-filename . "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/modules/custom"))
- ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/"
-  (dired-filename . "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/modules"))
- ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/"
-  (dired-filename . "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all"))
- ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/"
-  (dired-filename . "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites"))
- ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/"
-  (dired-filename . "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot"))
  ("/home/ethan/"
   (dired-filename . "/home/ethan/.bashrc"))
  ("/home/ethan/.homesick/repos/dotdaven/home/.bashrc" . 4109)
@@ -70,8 +178,6 @@
  ("/home/ethan/workspace/gn2/docroot/sites/"
   (dired-filename . "/home/ethan/workspace/gn2/docroot/sites/all"))
  ("/home/ethan/.emacs.d/elpa/phpcbf-20150302.528/phpcbf-autoloads.el" . 466)
- ("/home/ethan/.emacs.d/elpa/flycheck-20161012.433/flycheck-autoloads.el" . 8379)
- ("/home/ethan/.emacs.d/elpa/dash-20160820.501/dash-autoloads.el" . 220)
  ("/home/ethan/.emacs.d/elpa/"
   (dired-filename . "/home/ethan/.emacs.d/elpa/websocket-readme.txt"))
  ("/home/ethan/.emacs.d/"
@@ -87,7 +193,6 @@
  ("/home/ethan/workspace/"
   (dired-filename . "/home/ethan/workspace/gn2"))
  ("/home/ethan/.emacs.d/elpa/let-alist-1.0.4/let-alist-autoloads.el" . 1252)
- ("/home/ethan/.emacs.d/elpa/seq-2.16/seq-autoloads.el" . 265)
  ("/home/ethan/.homesick/repos/dotdaven/home/.profile" . 676)
  ("/home/ethan/.config/tilda/"
   (dired-filename . "/home/ethan/.config/tilda/.."))
@@ -95,12 +200,9 @@
   (dired-filename . "/home/ethan/.config/mate-menu/.."))
  ("/home/ethan/.config/mate/"
   (dired-filename . "/home/ethan/.config/mate/.."))
- ("/home/ethan/.config/composer/"
-  (dired-filename . "/home/ethan/.config/composer/.."))
  ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/themes/gn2_zen/css/"
   (dired-filename . "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/themes/gn2_zen/css/styles.css"))
  ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/themes/gn2_zen/css/styles.css" . 745880)
- ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/modules/custom/gn2_support_desk/gn2_support_desk.module" . 413)
  ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/themes/gn2_zen/css/component/"
   (dired-filename . "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/themes/gn2_zen/css/component/.."))
  ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/"
@@ -109,8 +211,6 @@
   (dired-filename . "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/.."))
  ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/"
   (dired-filename . "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/.."))
- ("/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/modules/custom/gn2_support_desk/"
-  (dired-filename . "/ssh:globalnet@v2-dev-ssh.globalnetplatform.org:/home/globalnet/microtext/docroot/sites/all/modules/custom/gn2_support_desk/.."))
  ("/home/ethan/workspace/agile-ms/docroot/bower.json" . 266)
  ("/home/ethan/workspace/agile-ms/docroot/gulpfile.js" . 1308)
  ("/home/ethan/workspace/agile-ms/docroot/"
@@ -164,19 +264,6 @@
  ("/home/ethan/workspace/gn2/docroot/sites/all/modules/custom/gn2_sessions/gn2_sessions_fc/"
   (dired-filename . "/home/ethan/workspace/gn2/docroot/sites/all/modules/custom/gn2_sessions/gn2_sessions_fc/gn2_sessions_fc.module"))
  ("/home/ethan/workspace/gn2/docroot/sites/all/modules/custom/gn2_sessions/gn2_sessions_fc/gn2_sessions_fc.module" . 377)
- ("/home/ethan/workspace/bbs/drupal/sites/all/modules/custom/ca_events/ca_events.module" . 818)
- ("/home/ethan/workspace/bbs/"
-  (dired-filename . "/home/ethan/workspace/bbs/.."))
- ("/home/ethan/workspace/bbs/docroot/"
-  (dired-filename . "/home/ethan/workspace/bbs/docroot/.."))
- ("/home/ethan/workspace/bbs/docroot/sites/"
-  (dired-filename . "/home/ethan/workspace/bbs/docroot/sites/.."))
- ("/home/ethan/workspace/bbs/docroot/sites/all/"
-  (dired-filename . "/home/ethan/workspace/bbs/docroot/sites/all/.."))
- ("/home/ethan/workspace/bbs/docroot/sites/all/modules/"
-  (dired-filename . "/home/ethan/workspace/bbs/docroot/sites/all/modules/.."))
- ("/home/ethan/workspace/bbs/docroot/sites/all/modules/custom/"
-  (dired-filename . "/home/ethan/workspace/bbs/docroot/sites/all/modules/custom/.."))
  ("/ssh:textrewa@174.121.236.93:/home/textrewa/public_html/" . 1982)
  ("/"
   (dired-filename . "/Applications"))
